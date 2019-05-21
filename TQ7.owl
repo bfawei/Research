@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-24="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#be -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#be">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#charge_with -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#charge_with">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink_quart -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink_quart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#have -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#have">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#knock -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#knock">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#negate -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#negate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#take -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#take">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Property"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#drink">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Alcoholic_beverage -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Alcoholic_beverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Controlled_material"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Controlled_material -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Controlled_material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Crime -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Crime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Felony -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Felony">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Crime"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Material -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Property -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Property">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Material"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Property"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Alcoholic_beverage"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery -->
+
+    <Class rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Felony"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Briefcase -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Briefcase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Property"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mel -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Person"/>
+        <untitled-ontology-24:be rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Arrest"/>
+        <untitled-ontology-24:be rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+        <untitled-ontology-24:be rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxicate"/>
+        <untitled-ontology-24:charge_with rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery"/>
+        <untitled-ontology-24:drink rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart"/>
+        <untitled-ontology-24:drink_quart rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Fire"/>
+        <untitled-ontology-24:have rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intoxication"/>
+        <untitled-ontology-24:knock rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger"/>
+        <untitled-ontology-24:take rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Briefcase"/>
+        <untitled-ontology-24:drink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quart</untitled-ontology-24:drink>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Mistake"/>
+        <untitled-ontology-24:negate rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Intent"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Passenger"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Quart"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bjfaw/ontologies/2018/9/untitled-ontology-24#Robbery"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
