@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entailment-corpus lang="EN">
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="1A">
+<t>On July 15, in a writing signed by both parties, Fixtures, Inc., agreed to deliver to Druggist on August 15 five storage cabinets from inventory for a total price of $5,000 to be paid on delivery. On August 1, the two parties orally agreed to postpone the delivery date to August 20. On August 20, Fixtures tendered the cabinets to Druggist, who refused to accept or pay for them on the ground that they were not tendered on August 15, even though they otherwise met the contract specifications. 
+Assume that all appropriate defenses are seasonably raised. Neither the July 15 agreement nor the August 1 agreement was required to be in writing.</t>
+
+<h>Fixtures will succeed in an action against Druggist for breach of contract.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="1B">
+<t>On July 15, in a writing signed by both parties, Fixtures, Inc., agreed to deliver to Druggist on August 15 five storage cabinets from inventory for a total price of $5,000 to be paid on delivery. On August 1, the two parties orally agreed to postpone the delivery date to August 20. On August 20, Fixtures tendered the cabinets to Druggist, who refused to accept or pay for them on the ground that they were not tendered on August 15, even though they otherwise met the contract specifications. 
+Assume that all appropriate defenses are seasonably raised. The August 1 agreement operated as a waiver of the August 15 delivery term.</t>
+
+<h>Fixtures will succeed in an action against Druggist for breach of contract.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="1C">
+<t>On July 15, in a writing signed by both parties, Fixtures, Inc., agreed to deliver to Druggist on August 15 five storage cabinets from inventory for a total price of $5,000 to be paid on delivery. On August 1, the two parties orally agreed to postpone the delivery date to August 20. On August 20, Fixtures tendered the cabinets to Druggist, who refused to accept or pay for them on the ground that they were not tendered on August 15, even though they otherwise met the contract specifications.
+Assume that all appropriate defenses are seasonably raised. There was no consideration to support the August 1 agreement.</t>
+
+<h>Fixtures will not succeed in an action against Druggist for breach of contract.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="1D">
+<t>On July 15, in a writing signed by both parties, Fixtures, Inc., agreed to deliver to Druggist on August 15 five storage cabinets from inventory for a total price of $5,000 to be paid on delivery. On August 1, the two parties orally agreed to postpone the delivery date to August 20. On August 20, Fixtures tendered the cabinets to Druggist, who refused to accept or pay for them on the ground that they were not tendered on August 15, even though they otherwise met the contract specifications. 
+Assume that all appropriate defenses are seasonably raised. The parol evidence rule will prevent proof of the August 1 agreement.</t>
+
+<h>Fixtures will not succeed in an action against Druggist for breach of contract.</h>
+</pair>
+
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="2A">
+<t>Beth wanted to make some money, so she decided to sell cocaine. She asked Albert, who was reputed to have access to illegal drugs, to supply her with cocaine so she could resell it. Albert agreed and sold Beth a bag of white powder. Beth then repackaged the white powder into smaller containers and sold one to Carol, an undercover police officer, who promptly arrested Beth. Beth immediately confessed and said that Albert was her supplier. Upon examination, the white powder was found not to be cocaine or any type of illegal substance. 
+Albert knew the white powder was not cocaine but Beth believed it was cocaine.</t>
+
+<h>Albert is guilty of attempting to sell cocaine and Beth is guilty of attempting to sell cocaine.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="2B">
+<t>Beth wanted to make some money, so she decided to sell cocaine. She asked Albert, who was reputed to have access to illegal drugs, to supply her with cocaine so she could resell it. Albert agreed and sold Beth a bag of white powder. Beth then repackaged the white powder into smaller containers and sold one to Carol, an undercover police officer, who promptly arrested Beth. Beth immediately confessed and said that Albert was her supplier. Upon examination, the white powder was found not to be cocaine or any type of illegal substance. 
+Albert knew the white powder was not cocaine but Beth believed it was cocaine.</t>
+
+<h>Albert is not guilty of attempting to sell cocaine and Beth is not guilty of attempting to sell cocaine.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="2C">
+<t>Beth wanted to make some money, so she decided to sell cocaine. She asked Albert, who was reputed to have access to illegal drugs, to supply her with cocaine so she could resell it. Albert agreed and sold Beth a bag of white powder. Beth then repackaged the white powder into smaller containers and sold one to Carol, an undercover police officer, who promptly arrested Beth. Beth immediately confessed and said that Albert was her supplier. Upon examination, the white powder was found not to be cocaine or any type of illegal substance. 
+Albert knew the white powder was not cocaine but Beth believed it was cocaine.
+</t>
+
+<h>Albert is guilty of attempting to sell cocaine and Beth is guilty of attempting to sell cocaine.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="ENTAILMENT" id="2D">
+<t>Beth wanted to make some money, so she decided to sell cocaine. She asked Albert, who was reputed to have access to illegal drugs, to supply her with cocaine so she could resell it. Albert agreed and sold Beth a bag of white powder. Beth then repackaged the white powder into smaller containers and sold one to Carol, an undercover police officer, who promptly arrested Beth. Beth immediately confessed and said that Albert was her supplier. Upon examination, the white powder was found not to be cocaine or any type of illegal substance. 
+Albert knew the white powder was not cocaine but Beth believed it was cocaine.</t>
+
+<h>Albert is guilty of attempting to sell cocaine and Beth is guilty of attempting to sell cocaine.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="3A">
+<t>Neighbor, who lived next door to Homeowner, went into Homeowner's garage without permission and borrowed Homeowner's chain saw. Neighbor used the saw to clear broken branches from the trees on Neighbor's own property. After he had finished, Neighbor noticed several broken branches on Homeowner's trees that were in danger of falling on Homeowner's roof. While Neighbor was cutting Homeowner's branches, the saw broke. 
+Homeowner makes a suit against Neighbor for conversion.</t>
+
+<h>Homeowner will recover for the actual damage to the saw.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="ENTAILMENT" id="3B">
+<t>Neighbor, who lived next door to Homeowner, went into Homeowner's garage without permission and borrowed Homeowner's chain saw. Neighbor used the saw to clear broken branches from the trees on Neighbor's own property. After he had finished, Neighbor noticed several broken branches on Homeowner's trees that were in danger of falling on Homeowner's roof. While Neighbor was cutting Homeowner's branches, the saw broke. 
+Homeowner makes a suit against Neighbor for conversion.</t>
+
+<h>Homeowner will recover for the value of the saw.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="3C">
+<t>Neighbor, who lived next door to Homeowner, went into Homeowner's garage without permission and borrowed Homeowner's chain saw. Neighbor used the saw to clear broken branches from the trees on Neighbor's own property. After he had finished, Neighbor noticed several broken branches on Homeowner's trees that were in danger of falling on Homeowner's roof. While Neighbor was cutting Homeowner's branches, the saw broke. 
+When the saw broke Neighbor was using it to benefit Homeowner. Homeowner makes a suit against Neighbor for conversion.</t>
+
+<h>Homeowner will not recover anything.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="3D">
+<t>Neighbor, who lived next door to Homeowner, went into Homeowner's garage without permission and borrowed Homeowner's chain saw. Neighbor used the saw to clear broken branches from the trees on Neighbor's own property. After he had finished, Neighbor noticed several broken branches on Homeowner's trees that were in danger of falling on Homeowner's roof. While Neighbor was cutting Homeowner's branches, the saw broke. 
+Neighbor did not intend to keep the saw. Homeowner makes a suit against Neighbor for conversion.</t>
+
+<h>Homeowner will not recover anything.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="4A">
+<t>Homeowner hired Arsonist to set fire to Homeowner's house so that Homeowner could collect the insurance proceeds from the fire. After pouring gasoline around the house, Arsonist lit the fire with his cigarette lighter and then put the lighter in his pocket. As Arsonist was standing back admiring his work, the lighter exploded in his pocket. Arsonist suffered severe burns to his leg. 
+Arsonist brought an action against the manufacturer of the lighter based on strict product liability. Under applicable law, the rules of pure comparative fault apply in such actions. The lighter exploded because of a defect caused by a manufacturing error.</t>
+
+<h>Arsonist will prevail in this action.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="4B">
+<t>Homeowner hired Arsonist to set fire to Homeowner's house so that Homeowner could collect the insurance proceeds from the fire. After pouring gasoline around the house, Arsonist lit the fire with his cigarette lighter and then put the lighter in his pocket. As Arsonist was standing back admiring his work, the lighter exploded in his pocket. Arsonist suffered severe burns to his leg. 
+Arsonist brought an action against the manufacturer of the lighter based on strict product liability. Under applicable law, the rules of pure comparative fault apply in such actions. Arsonist can establish that the lighter was the proximate cause of his injury.</t>
+
+<h>Arsonist will prevail in this action.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="4C">
+<t>Homeowner hired Arsonist to set fire to Homeowner's house so that Homeowner could collect the insurance proceeds from the fire. After pouring gasoline around the house, Arsonist lit the fire with his cigarette lighter and then put the lighter in his pocket. As Arsonist was standing back admiring his work, the lighter exploded in his pocket. Arsonist suffered severe burns to his leg. 
+Arsonist brought an action against the manufacturer of the lighter based on strict product liability. Under applicable law, the rules of pure comparative fault apply in such actions. The lighter was not being used for an intended or reasonably foreseeable purpose.</t>
+
+<h>Arsonist will not prevail in this action.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="4D">
+<t>Homeowner hired Arsonist to set fire to Homeowner's house so that Homeowner could collect the insurance proceeds from the fire. After pouring gasoline around the house, Arsonist lit the fire with his cigarette lighter and then put the lighter in his pocket. As Arsonist was standing back admiring his work, the lighter exploded in his pocket. Arsonist suffered severe burns to his leg. 
+Arsonist brought an action against the manufacturer of the lighter based on strict product liability. Under applicable law, the rules of pure comparative fault apply in such actions. Arsonist was injured in the course of committing a felony by the device used to perpetrate the felony.</t>
+
+<h>Arsonist will not prevail in this action.</h>
+</pair>
+
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="5A">
+<t>Susan owned Goldacre, a tract of land, in fee simple. By warranty deed, she conveyed Goldacre in fee simple to Ted for a recited consideration of "$10 and other valuable consideration." The deed was promptly and properly recorded. One week later, Susan and Ted executed a written document that stated that the conveyance of Goldacre was for the purpose of establishing a trust for the benefit of Benton, a child of Susan's. Ted expressly accepted the trust and signed the document with Susan. This written agreement was not authenticated to be eligible for recordation and there never was an attempt to record it. 
+Ted entered into possession of Goldacre and distributed the net income from Goldacre to Benton at appropriate intervals. 
+Five years later, Ted conveyed Goldacre in fee simple to Patricia by warranty deed. Patricia paid the fair market value of Goldacre, had no knowledge of the written agreement between Susan and Ted, and entered into possession of Goldacre. 
+Benton made demand upon Patricia for distribution of income at the next usual time Ted would have distributed. Patricia refused. Benton brought an appropriate action against Patricia for a decree requiring her to perform the trust Ted had theretofore recognized. A successor in title to the trustee takes title subject to the grantor's trust.
+</t>
+
+<h>Judgment should be for Benton.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="5B">
+<t>Susan owned Goldacre, a tract of land, in fee simple. By warranty deed, she conveyed Goldacre in fee simple to Ted for a recited consideration of "$10 and other valuable consideration." The deed was promptly and properly recorded. One week later, Susan and Ted executed a written document that stated that the conveyance of Goldacre was for the purpose of establishing a trust for the benefit of Benton, a child of Susan's. Ted expressly accepted the trust and signed the document with Susan. This written agreement was not authenticated to be eligible for recordation and there never was an attempt to record it. 
+Ted entered into possession of Goldacre and distributed the net income from Goldacre to Benton at appropriate intervals. 
+Five years later, Ted conveyed Goldacre in fee simple to Patricia by warranty deed. Patricia paid the fair market value of Goldacre, had no knowledge of the written agreement between Susan and Ted, and entered into possession of Goldacre. 
+Benton made demand upon Patricia for distribution of income at the next usual time Ted would have distributed. Patricia refused. Benton brought an appropriate action against Patricia for a decree requiring her to perform the trust Ted had theretofore recognized. Equitable interests are not subject to the recording act.</t>
+
+<h>Judgment should be for Benton.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="ENTAILMENT" id="5C">
+<t>Susan owned Goldacre, a tract of land, in fee simple. By warranty deed, she conveyed Goldacre in fee simple to Ted for a recited consideration of "$10 and other valuable consideration." The deed was promptly and properly recorded. One week later, Susan and Ted executed a written document that stated that the conveyance of Goldacre was for the purpose of establishing a trust for the benefit of Benton, a child of Susan's. Ted expressly accepted the trust and signed the document with Susan. This written agreement was not authenticated to be eligible for recordation and there never was an attempt to record it. 
+Ted entered into possession of Goldacre and distributed the net income from Goldacre to Benton at appropriate intervals. 
+Five years later, Ted conveyed Goldacre in fee simple to Patricia by warranty deed. Patricia paid the fair market value of Goldacre, had no knowledge of the written agreement between Susan and Ted, and entered into possession of Goldacre. 
+Benton made demand upon Patricia for distribution of income at the next usual time Ted would have distributed. Patricia refused. Benton brought an appropriate action against Patricia for a decree requiring her to perform the trust Ted had theretofore recognized. As a bona fide purchaser, she took free of the trust encumbering Ted's title.</t>
+
+<h>Judgment should be for Patricia.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="5D">
+<t>Susan owned Goldacre, a tract of land, in fee simple. By warranty deed, she conveyed Goldacre in fee simple to Ted for a recited consideration of "$10 and other valuable consideration." The deed was promptly and properly recorded. One week later, Susan and Ted executed a written document that stated that the conveyance of Goldacre was for the purpose of establishing a trust for the benefit of Benton, a child of Susan's. Ted expressly accepted the trust and signed the document with Susan. This written agreement was not authenticated to be eligible for recordation and there never was an attempt to record it. 
+Ted entered into possession of Goldacre and distributed the net income from Goldacre to Benton at appropriate intervals. 
+Five years later, Ted conveyed Goldacre in fee simple to Patricia by warranty deed. Patricia paid the fair market value of Goldacre, had no knowledge of the written agreement between Susan and Ted, and entered into possession of Goldacre. 
+Benton made demand upon Patricia for distribution of income at the next usual time Ted would have distributed. Patricia refused. Benton brought an appropriate action against Patricia for a decree requiring her to perform the trust Ted had theretofore recognized. No trust was ever created since Susan had no title at the time of the purported creation.</t>
+
+<h>Judgment should be for Patricia.</h>
+</pair>
+
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="6A">
+<t>In a federal investigation of Defendant for tax fraud, the grand jury seeks to obtain a letter written January 15 by Defendant to her attorney in which she stated: "Please prepare a deed giving my ranch to University but, in order to get around the tax law, I want it back-dated to December 15." The attorney refuses to produce the letter on the ground of privilege. The statement is protected by the attorney-client privilege.</t>
+
+<h>Production of the letter should be prohibited.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="6B">
+<t>In a federal investigation of Defendant for tax fraud, the grand jury seeks to obtain a letter written January 15 by Defendant to her attorney in which she stated: "Please prepare a deed giving my ranch to University but, in order to get around the tax law, I want it back-dated to December 15." The attorney refuses to produce the letter on the ground of privilege. The statement is protected by the client's privilege against self-incrimination.</t>
+
+<h>Production of the letter should be prohibited.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="ENTAILMENT" id="6C">
+<t>In a federal investigation of Defendant for tax fraud, the grand jury seeks to obtain a letter written January 15 by Defendant to her attorney in which she stated: "Please prepare a deed giving my ranch to University but, in order to get around the tax law, I want it back-dated to December 15." The attorney refuses to produce the letter on the ground of privilege. The statement was in furtherance of crime or fraud.</t>
+
+<h>Production of the letter should be required.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="6D">
+<t>In a federal investigation of Defendant for tax fraud, the grand jury seeks to obtain a letter written January 15 by Defendant to her attorney in which she stated: "Please prepare a deed giving my ranch to University but, in order to get around the tax law, I want it back-dated to December 15." The attorney refuses to produce the letter on the ground of privilege. The attorney-client privilege belongs to the client and can be claimed only by her.</t>
+
+<h>Production of the letter should be required.</h>
+</pair>
+
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="7A">
+<t>After being fired from his job, Mel drank almost a quart of vodka and decided to ride the bus home. While on the bus, he saw a briefcase he mistakenly thought was his own, and began struggling with the passenger carrying the briefcase. Mel knocked the passenger to the floor, took the briefcase, and fled. Mel was arrested and charged with robbery. He used no threats and was intoxicated.</t>
+
+<h>Mel should be acquitted of robbery.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="ENTAILMENT" id="7B">
+<t>After being fired from his job, Mel drank almost a quart of vodka and decided to ride the bus home. While on the bus, he saw a briefcase he mistakenly thought was his own, and began struggling with the passenger carrying the briefcase. Mel knocked the passenger to the floor, took the briefcase, and fled. Mel was arrested and charged with robbery. His mistake negated the required specific intent.</t>
+
+<h>Mel should be acquitted of robbery.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="7C">
+<t>After being fired from his job, Mel drank almost a quart of vodka and decided to ride the bus home. While on the bus, he saw a briefcase he mistakenly thought was his own, and began struggling with the passenger carrying the briefcase. Mel knocked the passenger to the floor, took the briefcase, and fled. Mel was arrested and charged with robbery. His intoxication was voluntary.</t>
+
+<h>Mel should be convicted of robbery.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="7D">
+<t>After being fired from his job, Mel drank almost a quart of vodka and decided to ride the bus home. While on the bus, he saw a briefcase he mistakenly thought was his own, and began struggling with the passenger carrying the briefcase. Mel knocked the passenger to the floor, took the briefcase, and fled. Mel was arrested and charged with robbery. Mistake is no defense to robbery.</t>
+
+<h>Mel should be convicted of robbery.</h>
+</pair>
+
+
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="8A">
+<t>A generally applicable state statute requires an autopsy by the county coroner in all cases of death that are not obviously of natural causes. The purpose of this law is to ensure the discovery and prosecution of all illegal activity resulting in death. In the 50 years since its enactment, the statute has been consistently enforced. 
+Mr. and Mrs. Long are sincere practicing members of a religion that maintains it is essential for a deceased person's body to be buried promptly and without any invasive procedures, including an autopsy. When the Longs' son died of mysterious causes and an autopsy was scheduled, the Longs filed an action in state court challenging the constitutionality of the state statute, and seeking an injunction prohibiting the county coroner from performing an autopsy on their son's body. In this action, the Longs claimed only that the application of this statute in the circumstances of their son's death would violate their right to the free exercise of religion as guaranteed by the First and Fourteenth Amendments. Assume that no federal statutes are applicable. The State's autopsy statue is applied to the Longs' case. A dead individual is not a person protected by the due process clause of the Fourteenth Amendment.</t>
+
+<h>The court should rule that the state's autopsy statute is constitutional.</h>
+</pair>
+
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="ENTAILMENT" id="8B">
+<t>A generally applicable state statute requires an autopsy by the county coroner in all cases of death that are not obviously of natural causes. The purpose of this law is to ensure the discovery and prosecution of all illegal activity resulting in death. In the 50 years since its enactment, the statute has been consistently enforced. 
+Mr. and Mrs. Long are sincere practicing members of a religion that maintains it is essential for a deceased person's body to be buried promptly and without any invasive procedures, including an autopsy. When the Longs' son died of mysterious causes and an autopsy was scheduled, the Longs filed an action in state court challenging the constitutionality of the state statute, and seeking an injunction prohibiting the county coroner from performing an autopsy on their son's body. In this action, the Longs claimed only that the application of this statute in the circumstances of their son's death would violate their right to the free exercise of religion as guaranteed by the First and Fourteenth Amendments. Assume that no federal statutes are applicable. The State's autopsy statue is applied to the Longs' case. It is a generally applicable statute and is rationally related to a legitimate state purpose.</t>
+
+<h>The court should rule that the state's autopsy statute is constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="8C">
+<t>A generally applicable state statute requires an autopsy by the county coroner in all cases of death that are not obviously of natural causes. The purpose of this law is to ensure the discovery and prosecution of all illegal activity resulting in death. In the 50 years since its enactment, the statute has been consistently enforced. 
+Mr. and Mrs. Long are sincere practicing members of a religion that maintains it is essential for a deceased person's body to be buried promptly and without any invasive procedures, including an autopsy. When the Longs' son died of mysterious causes and an autopsy was scheduled, the Longs filed an action in state court challenging the constitutionality of the state statute, and seeking an injunction prohibiting the county coroner from performing an autopsy on their son's body. In this action, the Longs claimed only that the application of this statute in the circumstances of their son's death would violate their right to the free exercise of religion as guaranteed by the First and Fourteenth Amendments. Assume that no federal statutes are applicable. The State's autopsy statue is applied to the Longs' case. It is not necessary to vindicate a compelling state interest.</t>
+
+<h>The court should rule that the state's autopsy statute is unconstitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="8D">
+<t>A generally applicable state statute requires an autopsy by the county coroner in all cases of death that are not obviously of natural causes. The purpose of this law is to ensure the discovery and prosecution of all illegal activity resulting in death. In the 50 years since its enactment, the statute has been consistently enforced. 
+Mr. and Mrs. Long are sincere practicing members of a religion that maintains it is essential for a deceased person's body to be buried promptly and without any invasive procedures, including an autopsy. When the Longs' son died of mysterious causes and an autopsy was scheduled, the Longs filed an action in state court challenging the constitutionality of the state statute, and seeking an injunction prohibiting the county coroner from performing an autopsy on their son's body. In this action, the Longs claimed only that the application of this statute in the circumstances of their son's death would violate their right to the free exercise of religion as guaranteed by the First and Fourteenth Amendments. Assume that no federal statutes are applicable. The State's autopsy statue is applied to the Longs' case. It is not substantially related to an important state interest.</t>
+
+<h>The court should rule that the state's autopsy statute is unconstitutional.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="9A">
+<t>By the terms of a written contract signed by both parties on January 15, M.B. Ram, Inc., agreed to sell a specific ICB personal computer to Marilyn Materboard for $3,000, and Materboard agreed to pick up and pay for the computer at Ram's store on February 1. Materboard unjustifiably repudiated on February 1. Without notifying Materboard, Ram subsequently sold at private sale the same specific computer to Byte, who paid the same price ($3,000) in cash. It received a price on resale equal to the contract price that Materboard had agreed to pay. The ICB is a popular product. Ram can buy from the manufacturer more units than it can sell at retail. Ram sues Materboard for breach of contract. </t>
+
+<h>Ram will probably recover nothing.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="9B">
+<t>By the terms of a written contract signed by both parties on January 15, M.B. Ram, Inc., agreed to sell a specific ICB personal computer to Marilyn Materboard for $3,000, and Materboard agreed to pick up and pay for the computer at Ram's store on February 1. Materboard unjustifiably repudiated on February 1. Without notifying Materboard, Ram subsequently sold at private sale the same specific computer to Byte, who paid the same price ($3,000) in cash. Ram failed to give Materboard proper notice of Ram's intention to resell. The ICB is a popular product. Ram can buy from the manufacturer more units than it can sell at retail. Ram sues Materboard for breach of contract. </t>
+
+<h>Ram will probably recover nothing.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="9C">
+<t>By the terms of a written contract signed by both parties on January 15, M.B. Ram, Inc., agreed to sell a specific ICB personal computer to Marilyn Materboard for $3,000, and Materboard agreed to pick up and pay for the computer at Ram's store on February 1. Materboard unjustifiably repudiated on February 1. Ram lost that sale. Without notifying Materboard, Ram subsequently sold at private sale the same specific computer to Byte, who paid the same price ($3,000) in cash. The ICB is a popular product. Ram can buy from the manufacturer more units than it can sell at retail. Ram sues Materboard for breach of contract.</t>
+
+<h>Ram will probably recover Ram's anticipated profit on the sale to Materboard plus incidental damages.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="9D">
+<t>By the terms of a written contract signed by both parties on January 15, M.B. Ram, Inc., agreed to sell a specific ICB personal computer to Marilyn Materboard for $3,000, and Materboard agreed to pick up and pay for the computer at Ram's store on February 1. Materboard unjustifiably repudiated on February 1. Materboard intentionally breached the contract by repudiation. Without notifying Materboard, Ram subsequently sold at private sale the same specific computer to Byte, who paid the same price ($3,000) in cash. The ICB is a popular product. Ram can buy from the manufacturer more units than it can sell at retail. Ram sues Materboard for breach of contract. </t>
+
+<h>Ram will probably recover the contract price.</h>
+</pair>
+
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="10A">
+<t>Anna owned Blackacre, which was improved with a dwelling. Beth owned Whiteacre, an adjoining unimproved lot suitable for constructing a dwelling. Beth executed and delivered a deed granting to Anna an easement over the westerly 15 feet of Whiteacre for convenient ingress and egress to a public street, although Anna's lot did abut another public street. Anna did not then record Beth's deed. After Anna constructed and started using a driveway within the described 15-foot strip in a clearly visible manner, Beth borrowed $10,000 cash from Bank and gave Bank a mortgage on Whiteacre. The mortgage was promptly and properly recorded. Anna then recorded Beth's deed granting the easement. Beth subsequently defaulted on her loan payments to Bank. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+In an appropriate foreclosure action as to Whiteacre, brought against Anna and Beth, Bank seeks, among other things, to have Anna's easement declared subordinate to Bank's mortgage, so that the easement will be terminated by completion of the foreclosure. The recording of the deed granting the easement prior to the foreclosure action protects Anna's rights.</t>
+
+<h>Anna's easement is NOT terminated.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="10B">
+<t>Anna owned Blackacre, which was improved with a dwelling. Beth owned Whiteacre, an adjoining unimproved lot suitable for constructing a dwelling. Beth executed and delivered a deed granting to Anna an easement over the westerly 15 feet of Whiteacre for convenient ingress and egress to a public street, although Anna's lot did abut another public street. Anna did not then record Beth's deed. After Anna constructed and started using a driveway within the described 15-foot strip in a clearly visible manner, Beth borrowed $10,000 cash from Bank and gave Bank a mortgage on Whiteacre. The mortgage was promptly and properly recorded. Anna then recorded Beth's deed granting the easement. Beth subsequently defaulted on her loan payments to Bank. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+In an appropriate foreclosure action as to Whiteacre, brought against Anna and Beth, Bank seeks, among other things, to have Anna's easement declared subordinate to Bank's mortgage, so that the easement will be terminated by completion of the foreclosure. The easement provides access from Blackacre to a public street.</t>
+
+<h>Anna's easement is NOT terminated.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="10C">
+<t>Anna owned Blackacre, which was improved with a dwelling. Beth owned Whiteacre, an adjoining unimproved lot suitable for constructing a dwelling. Beth executed and delivered a deed granting to Anna an easement over the westerly 15 feet of Whiteacre for convenient ingress and egress to a public street, although Anna's lot did abut another public street. Anna did not then record Beth's deed. After Anna constructed and started using a driveway within the described 15-foot strip in a clearly visible manner, Beth borrowed $10,000 cash from Bank and gave Bank a mortgage on Whiteacre. The mortgage was promptly and properly recorded. Anna then recorded Beth's deed granting the easement. Beth subsequently defaulted on her loan payments to Bank. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+In an appropriate foreclosure action as to Whiteacre, brought against Anna and Beth, Bank seeks, among other things, to have Anna's easement declared subordinate to Bank's mortgage, so that the easement will be terminated by completion of the foreclosure. Anna's easement is appurtenant to Blackacre and thus cannot be separated from Blackacre.</t>
+
+<h>Anna's easement is NOT terminated.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="ENTAILMENT" id="10D">
+<t>Anna owned Blackacre, which was improved with a dwelling. Beth owned Whiteacre, an adjoining unimproved lot suitable for constructing a dwelling. Beth executed and delivered a deed granting to Anna an easement over the westerly 15 feet of Whiteacre for convenient ingress and egress to a public street, although Anna's lot did abut another public street. Anna did not then record Beth's deed. After Anna constructed and started using a driveway within the described 15-foot strip in a clearly visible manner, Beth borrowed $10,000 cash from Bank and gave Bank a mortgage on Whiteacre. The mortgage was promptly and properly recorded. Anna then recorded Beth's deed granting the easement. Beth subsequently defaulted on her loan payments to Bank. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+In an appropriate foreclosure action as to Whiteacre, brought against Anna and Beth, Bank seeks, among other things, to have Anna's easement declared subordinate to Bank's mortgage, so that the easement will be terminated by completion of the foreclosure. Visible use of the easement by Anna put Bank on notice of the easement.</t>
+
+<h>Anna's easement is NOT terminated.</h>
+</pair>
+
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="11A">
+<t>A little more than five years ago, Len completed construction of a single-family home located on Homeacre, a lot that Len owned. Five years ago, Len and Tina entered into a valid five-year written lease of Homeacre that included the following language: "This house is rented as is, without certain necessary or useful items. The parties agree that Tina may acquire and install such items as she wishes at her expense, and that she may remove them if she wishes at the termination of this lease." 
+Tina decided that the house needed, and she paid cash to have installed, standard- sized combination screen/storm windows, a freestanding refrigerator to fit a kitchen alcove built for that purpose, a built-in electric stove and oven to fit a kitchen counter opening left for that purpose, and carpeting to cover the plywood living room floor. 
+Last month, by legal description of the land, Len conveyed Homeacre to Pete for $100,000. Pete knew of Tina's soon-expiring tenancy, but did not examine the written lease. As the lease expiration date approached, Pete learned that Tina planned to vacate on schedule, and learned for the first time that Tina claimed and planned to remove all of the above-listed items that she had installed. 
+Pete promptly brought an appropriate action to enjoin Tina from removing those items.</t>
+
+<h>The court should decide that Tina may remove none of the items.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="11B">
+<t>A little more than five years ago, Len completed construction of a single-family home located on Homeacre, a lot that Len owned. Five years ago, Len and Tina entered into a valid five-year written lease of Homeacre that included the following language: "This house is rented as is, without certain necessary or useful items. The parties agree that Tina may acquire and install such items as she wishes at her expense, and that she may remove them if she wishes at the termination of this lease." 
+Tina decided that the house needed, and she paid cash to have installed, standard- sized combination screen/storm windows, a freestanding refrigerator to fit a kitchen alcove built for that purpose, a built-in electric stove and oven to fit a kitchen counter opening left for that purpose, and carpeting to cover the plywood living room floor. 
+Last month, by legal description of the land, Len conveyed Homeacre to Pete for $100,000. Pete knew of Tina's soon-expiring tenancy, but did not examine the written lease. As the lease expiration date approached, Pete learned that Tina planned to vacate on schedule, and learned for the first time that Tina claimed and planned to remove all of the above-listed items that she had installed. 
+Pete promptly brought an appropriate action to enjoin Tina from removing those items.</t>
+
+<h>The court should decide that Tina may remove only the refrigerator.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="11C">
+<t>A little more than five years ago, Len completed construction of a single-family home located on Homeacre, a lot that Len owned. Five years ago, Len and Tina entered into a valid five-year written lease of Homeacre that included the following language: "This house is rented as is, without certain necessary or useful items. The parties agree that Tina may acquire and install such items as she wishes at her expense, and that she may remove them if she wishes at the termination of this lease." 
+Tina decided that the house needed, and she paid cash to have installed, standard- sized combination screen/storm windows, a freestanding refrigerator to fit a kitchen alcove built for that purpose, a built-in electric stove and oven to fit a kitchen counter opening left for that purpose, and carpeting to cover the plywood living room floor. 
+Last month, by legal description of the land, Len conveyed Homeacre to Pete for $100,000. Pete knew of Tina's soon-expiring tenancy, but did not examine the written lease. As the lease expiration date approached, Pete learned that Tina planned to vacate on schedule, and learned for the first time that Tina claimed and planned to remove all of the above-listed items that she had installed. 
+Pete promptly brought an appropriate action to enjoin Tina from removing those items.</t>
+
+<h>The court should decide that Tina may remove all items except the carpet.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="ENTAILMENT" id="11D">
+<t>A little more than five years ago, Len completed construction of a single-family home located on Homeacre, a lot that Len owned. Five years ago, Len and Tina entered into a valid five-year written lease of Homeacre that included the following language: "This house is rented as is, without certain necessary or useful items. The parties agree that Tina may acquire and install such items as she wishes at her expense, and that she may remove them if she wishes at the termination of this lease." 
+Tina decided that the house needed, and she paid cash to have installed, standard- sized combination screen/storm windows, a freestanding refrigerator to fit a kitchen alcove built for that purpose, a built-in electric stove and oven to fit a kitchen counter opening left for that purpose, and carpeting to cover the plywood living room floor. 
+Last month, by legal description of the land, Len conveyed Homeacre to Pete for $100,000. Pete knew of Tina's soon-expiring tenancy, but did not examine the written lease. As the lease expiration date approached, Pete learned that Tina planned to vacate on schedule, and learned for the first time that Tina claimed and planned to remove all of the above-listed items that she had installed. 
+Pete promptly brought an appropriate action to enjoin Tina from removing those items.</t>
+
+<h>The court should decide that Tina may remove all of the items.</h>
+</pair>
+
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="12A">
+<t>The mineral alpha is added to bodies of fresh water to prevent the spread of certain freshwater parasites. The presence of those parasites threatens the health of the organisms living in rivers and streams throughout the country and imperils the freshwater commercial fishing industry. Alpha is currently mined only in the state of Blue. 
+In order to raise needed revenue, Congress recently enacted a statute providing for the imposition of a $100 tax on each ton of alpha mined in the United States. Because it will raise the cost of alpha, this tax is likely to reduce the amount of alpha added to freshwater rivers and streams and, therefore, is likely to have an adverse effect on the interstate freshwater commercial fishing industry. Only producers in Blue will pay the tax and, therefore, it is not uniform among the states and denies alpha producers the equal protection of the laws. The alpha producers in Blue have filed a lawsuit in federal court challenging this tax solely on constitutional grounds.</t>
+
+<h>This tax is not constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="12B">
+<t>The mineral alpha is added to bodies of fresh water to prevent the spread of certain freshwater parasites. The presence of those parasites threatens the health of the organisms living in rivers and streams throughout the country and imperils the freshwater commercial fishing industry. Alpha is currently mined only in the state of Blue. 
+In order to raise needed revenue, Congress recently enacted a statute providing for the imposition of a $100 tax on each ton of alpha mined in the United States. Because it will raise the cost of alpha, this tax is likely to reduce the amount of alpha added to freshwater rivers and streams and, therefore, is likely to have an adverse effect on the interstate freshwater commercial fishing industry. It is likely to have an adverse effect on the freshwater commercial fishing industry and Congress has a responsibility under the clause to protect, foster, and advance such interstate industries. The alpha producers in Blue have filed a lawsuit in federal court challenging this tax solely on constitutional grounds.</t>
+
+<h>This tax is not constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="12C">
+<t>The mineral alpha is added to bodies of fresh water to prevent the spread of certain freshwater parasites. The presence of those parasites threatens the health of the organisms living in rivers and streams throughout the country and imperils the freshwater commercial fishing industry. Alpha is currently mined only in the state of Blue. 
+In order to raise needed revenue, Congress recently enacted a statute providing for the imposition of a $100 tax on each ton of alpha mined in the United States. Because it will raise the cost of alpha, this tax is likely to reduce the amount of alpha added to freshwater rivers and streams and, therefore, is likely to have an adverse effect on the interstate freshwater commercial fishing industry. The tax is a necessary and proper means of exercising federal authority over the navigable waters of the United States. The alpha producers in Blue have filed a lawsuit in federal court challenging this tax solely on constitutional grounds. </t>
+
+<h>This tax is constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="ENTAILMENT" id="12D">
+<t>The mineral alpha is added to bodies of fresh water to prevent the spread of certain freshwater parasites. The presence of those parasites threatens the health of the organisms living in rivers and streams throughout the country and imperils the freshwater commercial fishing industry. Alpha is currently mined only in the state of Blue. 
+In order to raise needed revenue, Congress recently enacted a statute providing for the imposition of a $100 tax on each ton of alpha mined in the United States. Because it will raise the cost of alpha, this tax is likely to reduce the amount of alpha added to freshwater rivers and streams and, therefore, is likely to have an adverse effect on the interstate freshwater commercial fishing industry. The alpha producers in Blue have filed a lawsuit in federal court challenging this tax solely on constitutional grounds. The power of Congress to impose taxes is plenary, this tax does not contain any provisions extraneous to tax needs or purposes, and it is not barred by any prohibitory language in the Constitution.</t>
+
+<h>This tax is constitutional.</h>
+</pair>
+
+
+<pair subject="EVIDENCE" task="QA" entailment="ENTAILMENT" id="13A">
+<t>Plaintiff sued Defendant for breach of a commercial contract in which Defendant had agreed to sell Plaintiff all of Plaintiff's requirements for widgets. Plaintiff called Expert Witness to testify as to damages. Evidence was elicited from Expert Witness on cross-examination. Defendant seeks to show that Expert Witness had provided false testimony as a witness in his own divorce proceedings.</t>
+
+<h>This evidence should be admitted.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="13B">
+<t>Plaintiff sued Defendant for breach of a commercial contract in which Defendant had agreed to sell Plaintiff all of Plaintiff's requirements for widgets. Plaintiff called Expert Witness to testify as to damages. Defendant seeks to show that Expert Witness had provided false testimony as a witness in his own divorce proceedings. The false testimony is established by clear and convincing extrinsic evidence.</t>
+
+<h>This evidence should be admitted.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="13C">
+<t>Plaintiff sued Defendant for breach of a commercial contract in which Defendant had agreed to sell Plaintiff all of Plaintiff's requirements for widgets. Plaintiff called Expert Witness to testify as to damages. Defendant seeks to show that Expert Witness had provided false testimony as a witness in his own divorce proceedings. It is impeachment on a collateral issue.</t>
+
+<h>This evidence should be excluded.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="13D">
+<t>Plaintiff sued Defendant for breach of a commercial contract in which Defendant had agreed to sell Plaintiff all of Plaintiff's requirements for widgets. Plaintiff called Expert Witness to testify as to damages. Defendant seeks to show that Expert Witness had provided false testimony as a witness in his own divorce proceedings. It is improper character evidence.</t>
+
+<h>This evidence should be excluded.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="14A">
+<t>Karen was crossing Main Street at a crosswalk. John, who was on the sidewalk nearby, saw a speeding automobile heading in Karen's direction. John ran into the street and pushed Karen out of the path of the car. Karen fell to the ground and broke her leg. John could have shouted a warning instead of pushing Karen out of the way. In an action for battery brought by Karen against John.</t>
+
+<h>Karen will prevail in an action for battery.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="ENTAILMENT" id="14B">
+<t>Karen was crossing Main Street at a crosswalk. John, who was on the sidewalk nearby, saw a speeding automobile heading in Karen's direction. John ran into the street and pushed Karen out of the path of the car. Karen fell to the ground and broke her leg. Karen was not actually in danger and John should have realized it. In an action for battery brought by Karen against John.</t>
+
+<h>Karen will prevail in an action for battery.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="14C">
+<t>Karen was crossing Main Street at a crosswalk. John, who was on the sidewalk nearby, saw a speeding automobile heading in Karen's direction. John ran into the street and pushed Karen out of the path of the car. Karen fell to the ground and broke her leg. The driver of the car was responsible for Karen's injury. In an action for battery brought by Karen against John.</t>
+
+<h>Karen will not prevail in an action for battery.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="14D">
+<t>Karen was crossing Main Street at a crosswalk. John, who was on the sidewalk nearby, saw a speeding automobile heading in Karen's direction. John ran into the street and pushed Karen out of the path of the car. Karen fell to the ground and broke her leg. John's intent was to save Karen, not to harm her. In an action for battery brought by Karen against John.</t>
+
+<h>Karen will not prevail in an action for battery.</h>
+</pair>
+
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="ENTAILMENT" id="15A">
+<t>Joe and Marty were coworkers. Joe admired Marty's wristwatch and frequently said how much he wished he had one like it. Marty decided to give Joe the watch for his birthday the following week. 
+On the weekend before Joe's birthday, Joe and Marty attended a company picnic. Marty took his watch off and left it on a blanket when he went off to join in a touch football game. Joe strolled by, saw the watch on the blanket, and decided to steal it. He bent over and picked up the watch. Before he could pocket it, however, Marty returned. When he saw Joe holding the watch, he said, "Joe, I know how much you like that watch. I was planning to give it to you for your birthday. Go ahead and take it now." Joe kept the watch.</t>
+
+<h>Joe has committed larceny.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="15B">
+<t>Joe and Marty were coworkers. Joe admired Marty's wristwatch and frequently said how much he wished he had one like it. Marty decided to give Joe the watch for his birthday the following week. 
+On the weekend before Joe's birthday, Joe and Marty attended a company picnic. Marty took his watch off and left it on a blanket when he went off to join in a touch football game. Joe strolled by, saw the watch on the blanket, and decided to steal it. He bent over and picked up the watch. Before he could pocket it, however, Marty returned. When he saw Joe holding the watch, he said, "Joe, I know how much you like that watch. I was planning to give it to you for your birthday. Go ahead and take it now." Joe kept the watch.</t>
+
+<h>Joe has committed attempted larceny.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="15C">
+<t>Joe and Marty were coworkers. Joe admired Marty's wristwatch and frequently said how much he wished he had one like it. Marty decided to give Joe the watch for his birthday the following week. 
+On the weekend before Joe's birthday, Joe and Marty attended a company picnic. Marty took his watch off and left it on a blanket when he went off to join in a touch football game. Joe strolled by, saw the watch on the blanket, and decided to steal it. He bent over and picked up the watch. Before he could pocket it, however, Marty returned. When he saw Joe holding the watch, he said, "Joe, I know how much you like that watch. I was planning to give it to you for your birthday. Go ahead and take it now." Joe kept the watch.</t>
+
+<h>Joe has committed embezzlement.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="15D">
+<t>Joe and Marty were coworkers. Joe admired Marty's wristwatch and frequently said how much he wished he had one like it. Marty decided to give Joe the watch for his birthday the following week. 
+On the weekend before Joe's birthday, Joe and Marty attended a company picnic. Marty took his watch off and left it on a blanket when he went off to join in a touch football game. Joe strolled by, saw the watch on the blanket, and decided to steal it. He bent over and picked up the watch. Before he could pocket it, however, Marty returned. When he saw Joe holding the watch, he said, "Joe, I know how much you like that watch. I was planning to give it to you for your birthday. Go ahead and take it now." Joe kept the watch.</t>
+
+<h>Joe has committed no crime.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="16A">
+<t>Olivia, owner in fee simple of Richacre, a large parcel of vacant land, executed a deed purporting to convey Richacre to her nephew, Grant. She told Grant, who was then 19, about the deed and said that she would give it to him when he reached 21 and had received his undergraduate college degree. Shortly afterward Grant searched Olivia's desk, found and removed the deed, and recorded it. 
+A month later, Grant executed an instrument in the proper form of a warranty deed purporting to convey Richacre to his fiancée, Bonnie. He delivered the deed to Bonnie, pointing out that the deed recited that it was given in exchange for "$1 and other good and valuable consideration," and that to make it valid Bonnie must pay him $1. Bonnie, impressed and grateful, did so. Together, they went to the recording office and recorded the deed. Bonnie assumed Grant had owned Richacre, and knew nothing about Grant's dealing with Olivia. Neither Olivia's deed to Grant nor Grant's deed to Bonnie said anything about any conditions. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+Two years passed. Grant turned 21, then graduated from college. At the graduation party, Olivia was chatting with Bonnie and for the first time learned the foregoing facts. 
+Grant's deed to Bonnie before Grant satisfied Olivia's conditions was void, as Bonnie had paid only nominal consideration. 
+The age of majority in the jurisdiction is 18 years. 
+Olivia brought an appropriate action against Bonnie to quiet title to Richacre. </t>
+
+<h>The court will decide for Olivia.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="ENTAILMENT" id="16B">
+<t>Olivia, owner in fee simple of Richacre, a large parcel of vacant land, executed a deed purporting to convey Richacre to her nephew, Grant. She told Grant, who was then 19, about the deed and said that she would give it to him when he reached 21 and had received his undergraduate college degree. Shortly afterward Grant searched Olivia's desk, found and removed the deed, and recorded it. 
+A month later, Grant executed an instrument in the proper form of a warranty deed purporting to convey Richacre to his fiancée, Bonnie. He delivered the deed to Bonnie, pointing out that the deed recited that it was given in exchange for "$1 and other good and valuable consideration," and that to make it valid Bonnie must pay him $1. Bonnie, impressed and grateful, did so. Together, they went to the recording office and recorded the deed. Bonnie assumed Grant had owned Richacre, and knew nothing about Grant's dealing with Olivia. Neither Olivia's deed to Grant nor Grant's deed to Bonnie said anything about any conditions. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." Olivia deed to Grant was not delivered. 
+Two years passed. Grant turned 21, then graduated from college. At the graduation party, Olivia was chatting with Bonnie and for the first time learned the foregoing facts. 
+The age of majority in the jurisdiction is 18 years. 
+Olivia brought an appropriate action against Bonnie to quiet title to Richacre.</t>
+
+<h>The court will decide for Olivia.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="16C">
+<t>Olivia, owner in fee simple of Richacre, a large parcel of vacant land, executed a deed purporting to convey Richacre to her nephew, Grant. She told Grant, who was then 19, about the deed and said that she would give it to him when he reached 21 and had received his undergraduate college degree. Shortly afterward Grant searched Olivia's desk, found and removed the deed, and recorded it. 
+A month later, Grant executed an instrument in the proper form of a warranty deed purporting to convey Richacre to his fiancée, Bonnie. He delivered the deed to Bonnie, pointing out that the deed recited that it was given in exchange for "$1 and other good and valuable consideration," and that to make it valid Bonnie must pay him $1. Bonnie, impressed and grateful, did so. Together, they went to the recording office and recorded the deed. Bonnie assumed Grant had owned Richacre, and knew nothing about Grant's dealing with Olivia. Neither Olivia's deed to Grant nor Grant's deed to Bonnie said anything about any conditions. Grant has satisfied Olivia's oral conditions. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." 
+Two years passed. Grant turned 21, then graduated from college. At the graduation party, Olivia was chatting with Bonnie and for the first time learned the foregoing facts. 
+The age of majority in the jurisdiction is 18 years. 
+Olivia brought an appropriate action against Bonnie to quiet title to Richacre.</t>
+
+<h>The court will decide for Bonnie.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="16D">
+<t>Olivia, owner in fee simple of Richacre, a large parcel of vacant land, executed a deed purporting to convey Richacre to her nephew, Grant. She told Grant, who was then 19, about the deed and said that she would give it to him when he reached 21 and had received his undergraduate college degree. Shortly afterward Grant searched Olivia's desk, found and removed the deed, and recorded it. 
+A month later, Grant executed an instrument in the proper form of a warranty deed purporting to convey Richacre to his fiancee, Bonnie. He delivered the deed to Bonnie, pointing out that the deed recited that it was given in exchange for "$1 and other good and valuable consideration," and that to make it valid Bonnie must pay him $1. Bonnie, impressed and grateful, did so. Together, they went to the recording office and recorded the deed. Bonnie assumed Grant had owned Richacre, and knew nothing about Grant's dealing with Olivia. Neither Olivia's deed to Grant nor Grant's deed to Bonnie said anything about any conditions. 
+The recording act of the jurisdiction provides: "No conveyance or mortgage of real property shall be good against subsequent purchasers for value and without notice unless the same be recorded according to law." The deed to her was recorded. 
+Two years passed. Grant turned 21, then graduated from college. At the graduation party, Olivia was chatting with Bonnie and for the first time learned the foregoing facts. 
+The age of majority in the jurisdiction is 18 years. 
+Olivia brought an appropriate action against Bonnie to quiet title to Richacre.</t>
+
+<h>The court will decide for Bonnie.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="17A">
+<t>Perry suffered a serious injury while participating in an impromptu basketball game at a public park. The injury occurred when Perry and Dever, on opposing teams, each tried to obtain possession of the ball when it rebounded from the backboard after a missed shot at the basket. During that encounter, Perry was struck and injured by Dever's elbow. Dever intended to strike Perry with his elbow. Perry now seeks compensation from Dever. 
+At the trial, evidence was introduced tending to prove that the game had been rough from the beginning, that elbows and knees had frequently been used to discourage interference by opposing players, and that Perry had been one of those making liberal use of such tactics.</t>
+
+<h>Perry will prevail in the action of seeking compensation.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="17B">
+<t>Perry suffered a serious injury while participating in an impromptu basketball game at a public park. The injury occurred when Perry and Dever, on opposing teams, each tried to obtain possession of the ball when it rebounded from the backboard after a missed shot at the basket. During that encounter, Perry was struck and injured by Dever's elbow. Dever intended to cause a harmful or offensive contact with Perry. Perry now seeks compensation from Dever. 
+At the trial, evidence was introduced tending to prove that the game had been rough from the beginning, that elbows and knees had frequently been used to discourage interference by opposing players, and that Perry had been one of those making liberal use of such tactics.</t>
+
+<h>Perry will prevail in the action of seeking compensation.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="17C">
+<t>Perry suffered a serious injury while participating in an impromptu basketball game at a public park. The injury occurred when Perry and Dever, on opposing teams, each tried to obtain possession of the ball when it rebounded from the backboard after a missed shot at the basket. During that encounter, Perry was struck and injured by Dever's elbow. Perry now seeks compensation from Dever. 
+At the trial, evidence was introduced tending to prove that the game had been rough from the beginning, that elbows and knees had frequently been used to discourage interference by opposing players, and that Perry had been one of those making liberal use of such tactics. Perry impliedly consented to rough play.</t>
+
+<h>Perry will not prevail in the action of seeking compensation.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="ENTAILMENT" id="17D">
+<t>Perry suffered a serious injury while participating in an impromptu basketball game at a public park. The injury occurred when Perry and Dever, on opposing teams, each tried to obtain possession of the ball when it rebounded from the backboard after a missed shot at the basket. During that encounter, Perry was struck and injured by Dever's elbow. Perry now seeks compensation from Dever. 
+At the trial, evidence was introduced tending to prove that the game had been rough from the beginning, that elbows and knees had frequently been used to discourage interference by opposing players, and that Perry had been one of those making liberal use of such tactics. Dever intentionally used force that exceeded the players' consent.</t>
+
+<h>Perry will not prevail in the action of seeking compensation.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="ENTAILMENT" id="18A">
+<t>Water District is an independent municipal water-supply district incorporated under the applicable laws of the state of Green. The district was created solely to supply water to an entirely new community in a recently developed area of Green. That new community is racially, ethnically, and socioeconomically diverse, and the community has never engaged in any discrimination against members of minority groups. 
+The five-member, elected governing board of the newly created Water District contains two persons who are members of racial minority groups. At its first meeting, the governing board of Water District adopted a rule unqualifiedly setting aside 25% of all positions on the staff of the District and 25% of all contracts to be awarded by the District to members of racial minority groups. The purpose of the rule was "to help redress the historical discrimination against these groups in this country and to help them achieve economic parity with other groups in our society." Set-asides would deny other potential employees or potential contractors the equal protection of the laws. Assume that no federal statute applies. 
+A suit by appropriate parties challenges the constitutionality of these set-asides. In this suit, the most appropriate ruling is based on the basis of applicable United States Supreme Court precedent.</t>
+
+<h>The set-asides are unconstitutional.</h>
+</pair>
+
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="18B">
+<t>Water District is an independent municipal water-supply district incorporated under the applicable laws of the state of Green. The district was created solely to supply water to an entirely new community in a recently developed area of Green. That new community is racially, ethnically, and socioeconomically diverse, and the community has never engaged in any discrimination against members of minority groups. 
+The five-member, elected governing board of the newly created Water District contains two persons who are members of racial minority groups. At its first meeting, the governing board of Water District adopted a rule unqualifiedly setting aside 25% of all positions on the staff of the District and 25% of all contracts to be awarded by the District to members of racial minority groups. The purpose of the rule was "to help redress the historical discrimination against these groups in this country and to help them achieve economic parity with other groups in our society." Set-asides would impermissibly impair the right to contract of other potential employees or potential contractors. Assume that no federal statute applies. 
+A suit by appropriate parties challenges the constitutionality of these set-asides. In this suit, the most appropriate ruling is based on the basis of applicable United States Supreme Court precedent.</t>
+
+<h>The set-asides are unconstitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="18C">
+<t>Water District is an independent municipal water-supply district incorporated under the applicable laws of the state of Green. The district was created solely to supply water to an entirely new community in a recently developed area of Green. That new community is racially, ethnically, and socioeconomically diverse, and the community has never engaged in any discrimination against members of minority groups. 
+The five-member, elected governing board of the newly created Water District contains two persons who are members of racial minority groups. At its first meeting, the governing board of Water District adopted a rule unqualifiedly setting aside 25% of all positions on the staff of the District and 25% of all contracts to be awarded by the District to members of racial minority groups. The purpose of the rule was "to help redress the historical discrimination against these groups in this country and to help them achieve economic parity with other groups in our society." Set-asides would assure members of racial minority groups the equal protection of the laws. Assume that no federal statute applies. 
+A suit by appropriate parties challenges the constitutionality of these set-asides. In this suit, the most appropriate ruling is based on the basis of applicable United States Supreme Court precedent.</t>
+
+<h>The set-asides are constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="18D">
+<t>Water District is an independent municipal water-supply district incorporated under the applicable laws of the state of Green. The district was created solely to supply water to an entirely new community in a recently developed area of Green. That new community is racially, ethnically, and socioeconomically diverse, and the community has never engaged in any discrimination against members of minority groups. 
+The five-member, elected governing board of the newly created Water District contains two persons who are members of racial minority groups. At its first meeting, the governing board of Water District adopted a rule unqualifiedly setting aside 25% of all positions on the staff of the District and 25% of all contracts to be awarded by the District to members of racial minority groups. The purpose of the rule was "to help redress the historical discrimination against these groups in this country and to help them achieve economic parity with other groups in our society." The function and activities of Water District are of a proprietary nature rather than a governmental nature and, therefore, are not subject to the usual requirements of the Fourteenth Amendment. Assume that no federal statute applies. 
+A suit by appropriate parties challenges the constitutionality of these set-asides. In this suit, the most appropriate ruling is based on the basis of applicable United States Supreme Court precedent.</t>
+
+<h>The set-asides are constitutional.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="19A">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. Farmer has no duty under the contract to pay anything to Painter until all three barns have been painted.</t>
+
+<h>Farmer is not obligated to make the $4,000 payment.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="19B">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. Painter waived her right, if any, to payment on a per-barn basis by failing to demand $2,000 upon completion of the first barn.</t>
+
+<h>Farmer is not obligated to make the $4,000 payment.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="19C">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. The contract is divisible.</t>
+
+<h>Farmer is obligated to make the $4,000 payment.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="19D">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. Painter has substantially performed the entire contract.</t>
+
+<h>Farmer is obligated to make the $4,000 payment.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="20A">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. Payment was expressly conditioned on completion of all three barns. 
+Assume that Farmer rightfully refused Painter's demand for payment. 
+Painter immediately terminates the contract without painting the third barn.</t>
+
+<h>Painter is entitled to recover from Farmer nothing.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="20B">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. 
+Assume that Farmer rightfully refused Painter's demand for payment. 
+Painter immediately terminates the contract without painting the third barn.</t>
+
+<h>Painter is entitled to recover from Farmer Painter's expenditures plus anticipated "profit" in painting the first two barns, up to a maximum recovery of $4,000.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="20C">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. 
+Assume that Farmer rightfully refused Painter's demand for payment. For Painter's failure to paint the third barn. 
+Painter immediately terminates the contract without painting the third barn.</t>
+
+<h>Painter is entitled to recover from Farmer the reasonable value of Painter's services in painting the two barns, less Farmer's damages.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="20D">
+<t>In a single writing, Painter contracted with Farmer to paint three identical barns on her rural estate for $2,000 each. The contract provided for Farmer's payment of $6,000 upon Painter's completion of the work on all three barns. Painter did not ask for any payment when the first barn was completely painted, but she demanded $4,000 after painting the second barn. 
+Assume that Farmer rightfully refused Painter's demand for payment. 
+Painter immediately terminates the contract without painting the third barn.</t>
+
+<h>Painter is entitled to recover from Farmer the amount that the combined value of the two painted barns has been increased by Painter's work.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="ENTAILMENT" id="21A">
+<t>The police in City notified local gas station attendants that a woman, known as Robber, recently had committed armed robberies at five City gas stations. The police said that Robber was approximately 75 years old, had white hair, and drove a vintage, cream-colored Ford Thunderbird. Attendants were advised to call police if they saw her, but not to attempt to apprehend her. Armed robbery is a felony under state law. 
+Traveler was passing through City on a cross- country journey. Traveler was a 75-year- old woman who had white hair and drove a vintage, cream-colored Ford Thunderbird. When Traveler drove into Owner's gas station, Owner thought Traveler must be the robber wanted by the police. After checking the oil at Traveler's request, Owner falsely informed Traveler that she had a broken fan belt, that her car could not be driven without a new belt, that it would take him about an hour to replace it, and that she should stay in his office for consultation about the repair. Traveler was greatly annoyed that her journey was delayed, but she stayed in Owner's office while she waited for her car. Owner telephoned the police and, within the hour, the police came and questioned Traveler. The police immediately determined that Traveler was not Robber, and Traveler resumed her journey without further delay. Owner reasonably believed that Traveler was Robber. Traveler takes an action against Owner for false imprisonment.</t>
+
+<h>Traveler will not prevail in an action for false imprisonment.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="21B">
+<t>The police in City notified local gas station attendants that a woman, known as Robber, recently had committed armed robberies at five City gas stations. The police said that Robber was approximately 75 years old, had white hair, and drove a vintage, cream-colored Ford Thunderbird. Attendants were advised to call police if they saw her, but not to attempt to apprehend her. Armed robbery is a felony under state law. 
+Traveler was passing through City on a cross- country journey. Traveler was a 75-year- old woman who had white hair and drove a vintage, cream-colored Ford Thunderbird. When Traveler drove into Owner's gas station, Owner thought Traveler must be the robber wanted by the police. After checking the oil at Traveler's request, Owner falsely informed Traveler that she had a broken fan belt, that her car could not be driven without a new belt, that it would take him about an hour to replace it, and that she should stay in his office for consultation about the repair. Traveler was greatly annoyed that her journey was delayed, but she stayed in Owner's office while she waited for her car. Owner telephoned the police and, within the hour, the police came and questioned Traveler. The police immediately determined that Traveler was not Robber, and Traveler resumed her journey without further delay. Traveler suffered no physical or mental harm. Traveler takes an action against Owner for false imprisonment.</t>
+
+<h>Traveler will not prevail in an action for false imprisonment.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="21C">
+<t>The police in City notified local gas station attendants that a woman, known as Robber, recently had committed armed robberies at five City gas stations. The police said that Robber was approximately 75 years old, had white hair, and drove a vintage, cream-colored Ford Thunderbird. Attendants were advised to call police if they saw her, but not to attempt to apprehend her. Armed robbery is a felony under state law. Traveler was passing through City on a cross- country journey. Traveler was a 75-year- old woman who had white hair and drove a vintage, cream-colored Ford Thunderbird. When Traveler drove into Owner's gas station, Owner thought Traveler must be the robber wanted by the police. After checking the oil at Traveler's request, Owner falsely informed Traveler that she had a broken fan belt, that her car could not be driven without a new belt, that it would take him about an hour to replace it, and that she should stay in his office for consultation about the repair. Traveler was greatly annoyed that her journey was delayed, but she stayed in Owner's office while she waited for her car. Owner telephoned the police and, within the hour, the police came and questioned Traveler. The police immediately determined that Traveler was not Robber, and Traveler resumed her journey without further delay. Traveler reasonably believed she could not leave Owner's premises. Traveler takes an action against Owner for false imprisonment.</t>
+
+<h>Traveler will prevail in an action for false imprisonment.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="21D">
+<t>The police in City notified local gas station attendants that a woman, known as Robber, recently had committed armed robberies at five City gas stations. The police said that Robber was approximately 75 years old, had white hair, and drove a vintage, cream-colored Ford Thunderbird. Attendants were advised to call police if they saw her, but not to attempt to apprehend her. Armed robbery is a felony under state law. 
+Traveler was passing through City on a cross- country journey. Traveler was a 75-year- old woman who had white hair and drove a vintage, cream-colored Ford Thunderbird. When Traveler drove into Owner's gas station, Owner thought Traveler must be the robber wanted by the police. After checking the oil at Traveler's request, Owner falsely informed Traveler that she had a broken fan belt, that her car could not be driven without a new belt, that it would take him about an hour to replace it, and that she should stay in his office for consultation about the repair. Traveler was greatly annoyed that her journey was delayed, but she stayed in Owner's office while she waited for her car. Owner telephoned the police and, within the hour, the police came and questioned Traveler. The police immediately determined that Traveler was not Robber, and Traveler resumed her journey without further delay. Owner lied to Traveler about the condition of her car. Traveler takes an action against Owner for false imprisonment.</t>
+
+<h>Traveler will prevail in an action for false imprisonment.</h>
+</pair>
+
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="22A">
+<t>A local ordinance forbids the sale of alcoholic beverages to persons under 18 years of age. Relying on false identification, Defendant sells champagne to a 16-year-old high school student. Defendant is charged with illegal sale of alcoholic beverages.</t>
+
+<h>Defendant's mistake constitutes a defense to the crime charged.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="ENTAILMENT" id="22B">
+<t>Mistaking Defendant for a narcotics suspect, an undercover police officer attempts to arrest him. Defendant, unaware that the person who has grabbed him is an officer, hits him and knocks him unconscious. Defendant is charged with assault.</t>
+
+<h>Defendant's mistake constitutes a defense to the crime charged.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="22C">
+<t>Defendant, aged 23, has sexual intercourse with a 15-year-old prostitute who tells Defendant that she is 18. Defendant is charged with the felony of statutory rape under a statute that makes sexual relations with a child under 16 a felony.</t>
+
+<h>Defendant's mistake constitutes a defense to the crime charged.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="22D">
+<t>Relying on erroneous advice from his attorney that, if his wife has abandoned him for more than a year, he is free to marry, Defendant remarries and is subsequently charged with bigamy.</t>
+
+<h>Defendant's mistake constitutes a defense to the crime charged.</h>
+</pair>
+
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="23A">
+<t>Powell, who was an asbestos insulation installer from 1955 to 1965, contracted asbestosis, a serious lung disorder, as a result of inhaling airborne asbestos particles on the job. The asbestos was manufactured and sold to Powell's employer by the Acme Asbestos Company. Because neither Acme nor anyone else discovered the risk to asbestos installers until 1966, Acme did not provide any warnings of the risks to installers until after that date. 
+Powell brought an action against Acme based on strict liability in tort for failure to warn. The case is to be tried before a jury. The jurisdiction has not adopted a comparative fault rule in strict liability cases. 
+It is for the court to decide an issue as a matter of law, rather than for the jury to decide as a question of fact.</t>
+
+<h>A satisfactory, safer, alternative insulation material exists under today's technology.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="ENTAILMENT" id="23B">
+<t>Powell, who was an asbestos insulation installer from 1955 to 1965, contracted asbestosis, a serious lung disorder, as a result of inhaling airborne asbestos particles on the job. The asbestos was manufactured and sold to Powell's employer by the Acme Asbestos Company. Because neither Acme nor anyone else discovered the risk to asbestos installers until 1966, Acme did not provide any warnings of the risks to installers until after that date. 
+Powell brought an action against Acme based on strict liability in tort for failure to warn. The case is to be tried before a jury. The jurisdiction has not adopted a comparative fault rule in strict liability cases. 
+It is for the court to decide an issue as a matter of law, rather than for the jury to decide as a question of fact.</t>
+
+<h>The defendant should be held to the standard of a prudent manufacturer who knew of the risks, regardless of whether the risks were reasonably discoverable before 1966.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="23C">
+<t>Powell, who was an asbestos insulation installer from 1955 to 1965, contracted asbestosis, a serious lung disorder, as a result of inhaling airborne asbestos particles on the job. The asbestos was manufactured and sold to Powell's employer by the Acme Asbestos Company. Because neither Acme nor anyone else discovered the risk to asbestos installers until 1966, Acme did not provide any warnings of the risks to installers until after that date. 
+Powell brought an action against Acme based on strict liability in tort for failure to warn. The case is to be tried before a jury. The jurisdiction has not adopted a comparative fault rule in strict liability cases. 
+It is for the court to decide an issue as a matter of law, rather than for the jury to decide as a question of fact.</t>
+
+<h>The defendant should reasonably have known of the risks of asbestos insulation materials before 1966, even though no one else had discovered the risks.</h>
+</pair>
+
+<pair subject="TORTS" task="QA" entailment="NONENTAILMENT" id="23D">
+<t>Powell, who was an asbestos insulation installer from 1955 to 1965, contracted asbestosis, a serious lung disorder, as a result of inhaling airborne asbestos particles on the job. The asbestos was manufactured and sold to Powell's employer by the Acme Asbestos Company. Because neither Acme nor anyone else discovered the risk to asbestos installers until 1966, Acme did not provide any warnings of the risks to installers until after that date. 
+Powell brought an action against Acme based on strict liability in tort for failure to warn. The case is to be tried before a jury. The jurisdiction has not adopted a comparative fault rule in strict liability cases. 
+It is for the court to decide an issue as a matter of law, rather than for the jury to decide as a question of fact.</t>
+
+<h>The asbestos insulation materials to which the plaintiff was exposed were inherently dangerous.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="ENTAILMENT" id="24A">
+<t>PullCo sued Davidson, its former vice president, for return of $230,000 that had been embezzled during the previous two years. Called by PullCo as an adverse witness, Davidson testified that his annual salary had been $75,000, and he denied the embezzlement. PullCo calls banker Witt to show that, during the two-year period, Davidson had deposited $250,000 in his bank account. Witt's testimony is a circumstantial evidence of Davidson's guilt.</t>
+
+<h>Witt's testimony is admissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="24B">
+<t>PullCo sued Davidson, its former vice president, for return of $230,000 that had been embezzled during the previous two years. Called by PullCo as an adverse witness, Davidson testified that his annual salary had been $75,000, and he denied the embezzlement. PullCo calls banker Witt to show that, during the two-year period, Davidson had deposited $250,000 in his bank account. Witt's testimony is to impeach Davidson.</t>
+
+<h>Witt's testimony is admissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="24C">
+<t>PullCo sued Davidson, its former vice president, for return of $230,000 that had been embezzled during the previous two years. Called by PullCo as an adverse witness, Davidson testified that his annual salary had been $75,000, and he denied the embezzlement. PullCo calls banker Witt to show that, during the two-year period, Davidson had deposited $250,000 in his bank account. The prejudicial effect substantially outweighs its probative value. </t>
+
+<h>Witt's testimony is inadmissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="24D">
+<t>PullCo sued Davidson, its former vice president, for return of $230,000 that had been embezzled during the previous two years. Called by PullCo as an adverse witness, Davidson testified that his annual salary had been $75,000, and he denied the embezzlement. PullCo calls banker Witt to show that, during the two-year period, Davidson had deposited $250,000 in his bank account. The deposits could have come from legitimate sources.</t>
+
+<h>Witt's testimony is inadmissible.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="25A">
+<t>Alex and Betty, who were cousins, acquired title in fee simple to Blackacre, as equal tenants in common, by inheritance from Angela, their aunt. During the last 15 years of her lifetime, Angela allowed Alex to occupy an apartment in the house on Blackacre, to rent the other apartment in the house to various tenants, and to retain the rent. Alex made no payments to Angela; and since Angela's death 7 years ago, he has made no payments to Betty. For those 22 years, Alex has paid the real estate taxes on Blackacre, kept the building on Blackacre insured, and maintained the building. At all times, Betty has lived in a distant city and has never had anything to do with Angela, Alex, or Blackacre. 
+Recently, Betty needed money for the operation of her business and demanded that Alex join her in selling Blackacre. Alex refused. 
+The period of time to acquire title by adverse possession in the jurisdiction is 10 years. There is no other applicable statute. 
+Betty brought an appropriate action against Alex for partition. Alex asserted all available defenses and counterclaims. The court find that the title has vested in Alex by adverse possession.</t>
+
+<h>The court should deny partition.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="25B">
+<t>Alex and Betty, who were cousins, acquired title in fee simple to Blackacre, as equal tenants in common, by inheritance from Angela, their aunt. During the last 15 years of her lifetime, Angela allowed Alex to occupy an apartment in the house on Blackacre, to rent the other apartment in the house to various tenants, and to retain the rent. Alex made no payments to Angela; and since Angela's death 7 years ago, he has made no payments to Betty. For those 22 years, Alex has paid the real estate taxes on Blackacre, kept the building on Blackacre insured, and maintained the building. At all times, Betty has lived in a distant city and has never had anything to do with Angela, Alex, or Blackacre. 
+Recently, Betty needed money for the operation of her business and demanded that Alex join her in selling Blackacre. Alex refused. 
+The period of time to acquire title by adverse possession in the jurisdiction is 10 years. There is no other applicable statute. 
+Betty brought an appropriate action against Alex for partition. Alex asserted all available defenses and counterclaims. The court confirm the tenancy in common, but require an accounting to determine if either Betty or Alex is indebted to the other on account of the rental payment, taxes, insurance premiums, and maintenance costs.</t>
+
+<h>The court should deny partition.</h>
+</pair>
+
+
+<pair subject="REAL PROPERTY" task="QA" entailment="ENTAILMENT" id="25C">
+<t>Alex and Betty, who were cousins, acquired title in fee simple to Blackacre, as equal tenants in common, by inheritance from Angela, their aunt. During the last 15 years of her lifetime, Angela allowed Alex to occupy an apartment in the house on Blackacre, to rent the other apartment in the house to various tenants, and to retain the rent. Alex made no payments to Angela; and since Angela's death 7 years ago, he has made no payments to Betty. For those 22 years, Alex has paid the real estate taxes on Blackacre, kept the building on Blackacre insured, and maintained the building. At all times, Betty has lived in a distant city and has never had anything to do with Angela, Alex, or Blackacre. 
+Recently, Betty needed money for the operation of her business and demanded that Alex join her in selling Blackacre. Alex refused. 
+The period of time to acquire title by adverse possession in the jurisdiction is 10 years. There is no other applicable statute. 
+Betty brought an appropriate action against Alex for partition. Alex asserted all available defenses and counterclaims. The court require, as an adjustment, an accounting to determine if either Betty or Alex is indebted to the other on account of the rental payments, taxes, insurance premiums, and maintenance costs.</t>
+
+<h>The court should grant partition.</h>
+</pair>
+
+<pair subject="REAL PROPERTY" task="QA" entailment="NONENTAILMENT" id="25D">
+<t>Alex and Betty, who were cousins, acquired title in fee simple to Blackacre, as equal tenants in common, by inheritance from Angela, their aunt. During the last 15 years of her lifetime, Angela allowed Alex to occupy an apartment in the house on Blackacre, to rent the other apartment in the house to various tenants, and to retain the rent. Alex made no payments to Angela; and since Angela's death 7 years ago, he has made no payments to Betty. For those 22 years, Alex has paid the real estate taxes on Blackacre, kept the building on Blackacre insured, and maintained the building. At all times, Betty has lived in a distant city and has never had anything to do with Angela, Alex, or Blackacre. 
+Recently, Betty needed money for the operation of her business and demanded that Alex join her in selling Blackacre. Alex refused. 
+The period of time to acquire title by adverse possession in the jurisdiction is 10 years. There is no other applicable statute. 
+Betty brought an appropriate action against Alex for partition. Alex asserted all available defenses and counterclaims.</t>
+
+<h>The court should grant partition to Betty as owner and The court should grant partition to Alex as owner.</h>
+</pair>
+
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="26A">
+<t>Plaintiff sued Defendant for illegal discrimination, claiming that Defendant fired him because of his race. At trial, Plaintiff called Witness, expecting him to testify that Defendant had admitted the racial motivation. Instead, Witness testified that Defendant said that he had fired Plaintiff because of his frequent absenteeism. While Witness is still on the stand, Plaintiff offers a properly authenticated secret tape recording he had made at a meeting with Witness in which Witness related Defendant's admissions of racial motivation. The tape recording is an evidence of Defendant's racial motivation and to impeach Witness's testimony.</t>
+
+<h>The tape recording is admissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="ENTAILMENT" id="26B">
+<t>Plaintiff sued Defendant for illegal discrimination, claiming that Defendant fired him because of his race. At trial, Plaintiff called Witness, expecting him to testify that Defendant had admitted the racial motivation. Instead, Witness testified that Defendant said that he had fired Plaintiff because of his frequent absenteeism. While Witness is still on the stand, Plaintiff offers a properly authenticated secret tape recording he had made at a meeting with Witness in which Witness related Defendant's admissions of racial motivation. The tape recording is only to impeach Witness's testimony.</t>
+
+<h>The tape recording is admissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="26C">
+<t>Plaintiff sued Defendant for illegal discrimination, claiming that Defendant fired him because of his race. At trial, Plaintiff called Witness, expecting him to testify that Defendant had admitted the racial motivation. Instead, Witness testified that Defendant said that he had fired Plaintiff because of his frequent absenteeism. While Witness is still on the stand, Plaintiff offers a properly authenticated secret tape recording he had made at a meeting with Witness in which Witness related Defendant's admissions of racial motivation. The tape recording is hearsay not within any exception.</t>
+
+<h>The tape recording is inadmissible.</h>
+</pair>
+
+<pair subject="EVIDENCE" task="QA" entailment="NONENTAILMENT" id="26D">
+<t>Plaintiff sued Defendant for illegal discrimination, claiming that Defendant fired him because of his race. At trial, Plaintiff called Witness, expecting him to testify that Defendant had admitted the racial motivation. Instead, Witness testified that Defendant said that he had fired Plaintiff because of his frequent absenteeism. While Witness is still on the stand, Plaintiff offers a properly authenticated secret tape recording he had made at a meeting with Witness in which Witness related Defendant's admissions of racial motivation. A secret recording is an invasion of Witness's right of privacy under the U.S. Constitution.</t>
+
+<h>The tape recording is inadmissible.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="27A">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+No other correspondence passed between Stationer and Lawyer until the following April 15 (four months later), when Stationer received from Lawyer a faxed order for "100 reams of your paper, catalog item #101." Stationer had not revoked its offer before April 15.</t>
+
+<h>Lawyer's April 15 fax constituted an effective acceptance of Stationer's offer at the prices specified in the catalog.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="27B">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+No other correspondence passed between Stationer and Lawyer until the following April 15 (four months later), when Stationer received from Lawyer a faxed order for "100 reams of your paper, catalog item #101." A one-year option contract had been created by Stationer's offer.</t>
+
+<h>Lawyer's April 15 fax constituted an effective acceptance of Stationer's offer at the prices specified in the catalog.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="27C">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+No other correspondence passed between Stationer and Lawyer until the following April 15 (four months later), when Stationer received from Lawyer a faxed order for "100 reams of your paper, catalog item #101." Under applicable law the irrevocability of Stationer's offer was limited to a period of three months.</t>
+
+<h>Lawyer's April 15 fax did not constitute an effective acceptance of Stationer's offer at the prices specified in the catalog.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="27D">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+No other correspondence passed between Stationer and Lawyer until the following April 15 (four months later), when Stationer received from Lawyer a faxed order for "100 reams of your paper, catalog item #101." Lawyer did not accept Stationer's offer within a reasonable time.</t>
+
+<h>Lawyer's April 15 fax did not constitute an effective acceptance of Stationer's offer at the prices specified in the catalog.</h>
+</pair>
+
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="28A">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+On January 15, having at that time received no reply from Lawyer, Stationer notified Lawyer that effective February 1, it was increasing the prices of certain specified items in its catalog. Stationer's original offer, including the price term, became irrevocable under the doctrine of promissory estoppel.</t>
+
+<h>The price increase is not effective with respect to catalog orders Stationer receives from Lawyer during the month of February.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="ENTAILMENT" id="28B">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+On January 15, having at that time received no reply from Lawyer, Stationer notified Lawyer that effective February 1, it was increasing the prices of certain specified items in its catalog. Stationer is a merchant with respect to office supplies; and its original offer, including the price term, was irrevocable throughout the month of February.</t>
+
+<h>The price increase is not effective with respect to catalog orders Stationer receives from Lawyer during the month of February.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="28C">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+On January 15, having at that time received no reply from Lawyer, Stationer notified Lawyer that effective February 1, it was increasing the prices of certain specified items in its catalog. Stationer received no consideration to support its assurance that it would not increase prices.</t>
+
+<h>The price increase is effective with respect to catalog orders Stationer receives from Lawyer during the month of February.</h>
+</pair>
+
+<pair subject="CONTRACTS" task="QA" entailment="NONENTAILMENT" id="28D">
+<t>On December 15, Lawyer received from Stationer, Inc., a retailer of office supplies, an offer consisting of its catalog and a signed letter stating, "We will supply you with as many of the items in the enclosed catalog as you order during the next calendar year. We assure you that this offer and the prices in the catalog will remain firm throughout the coming year." 
+On January 15, having at that time received no reply from Lawyer, Stationer notified Lawyer that effective February 1, it was increasing the prices of certain specified items in its catalog. The period for which Stationer gave assurance that it would not raise prices was longer than three months.</t>
+
+<h>The price increase is effective with respect to catalog orders Stationer receives from Lawyer during the month of February.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="29A">
+<t>State X enacted a statute "to regulate administratively the conduct of motor vehicle junkyard businesses in order to deter motor vehicle theft and trafficking in stolen motor vehicles or parts thereof." The statute requires a junkyard owner or operator "to permit representatives of the Department of Motor Vehicles or of any law enforcement agency upon request during normal business hours to take physical inventory of motor vehicles and parts thereof on the premises." The statute also states that a failure to comply with any of its requirements constitutes a felony. The statute grants unbridled discretion to law enforcement officers to make warrantless searches. 
+Police officers assigned to Magnolia City's Automobile Crimes Unit periodically visited all motor vehicle junkyards in town to make the inspections permitted by the statute. Janet owned such a business in Magnolia City. One summer day, the officers asked to inspect the vehicles on her lot. Janet said, "Do I have a choice?" The officers told her she did not. The officers conducted their inspection and discovered three stolen automobiles. 
+Janet is charged with receiving stolen property. Janet moves pretrial to suppress the evidence relating to the three automobiles on the ground that the inspection was unconstitutional.</t>
+
+<h>Her motion should be sustained.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="29B">
+<t>State X enacted a statute "to regulate administratively the conduct of motor vehicle junkyard businesses in order to deter motor vehicle theft and trafficking in stolen motor vehicles or parts thereof." The statute requires a junkyard owner or operator "to permit representatives of the Department of Motor Vehicles or of any law enforcement agency upon request during normal business hours to take physical inventory of motor vehicles and parts thereof on the premises." The statute also states that a failure to comply with any of its requirements constitutes a felony. The stated regulatory purpose of the statute is a pretext to circumvent the warrant requirement in conducting criminal investigations. 
+Police officers assigned to Magnolia City's Automobile Crimes Unit periodically visited all motor vehicle junkyards in town to make the inspections permitted by the statute. Janet owned such a business in Magnolia City. One summer day, the officers asked to inspect the vehicles on her lot. Janet said, "Do I have a choice?" The officers told her she did not. The officers conducted their inspection and discovered three stolen automobiles. 
+Janet is charged with receiving stolen property. Janet moves pretrial to suppress the evidence relating to the three automobiles on the ground that the inspection was unconstitutional.</t>
+
+<h>Her motion should be sustained.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="ENTAILMENT" id="29C">
+<t>State X enacted a statute "to regulate administratively the conduct of motor vehicle junkyard businesses in order to deter motor vehicle theft and trafficking in stolen motor vehicles or parts thereof." The statute requires a junkyard owner or operator "to permit representatives of the Department of Motor Vehicles or of any law enforcement agency upon request during normal business hours to take physical inventory of motor vehicles and parts thereof on the premises." The statute also states that a failure to comply with any of its requirements constitutes a felony. The statute deals reasonably with a highly regulated industry. 
+Police officers assigned to Magnolia City's Automobile Crimes Unit periodically visited all motor vehicle junkyards in town to make the inspections permitted by the statute. Janet owned such a business in Magnolia City. One summer day, the officers asked to inspect the vehicles on her lot. Janet said, "Do I have a choice?" The officers told her she did not. The officers conducted their inspection and discovered three stolen automobiles. 
+Janet is charged with receiving stolen property. Janet moves pretrial to suppress the evidence relating to the three automobiles on the ground that the inspection was unconstitutional.</t>
+
+<h>Her motion should be denied.</h>
+</pair>
+
+<pair subject="CRIMINAL LAW" task="QA" entailment="NONENTAILMENT" id="29D">
+<t>State X enacted a statute "to regulate administratively the conduct of motor vehicle junkyard businesses in order to deter motor vehicle theft and trafficking in stolen motor vehicles or parts thereof." The statute requires a junkyard owner or operator "to permit representatives of the Department of Motor Vehicles or of any law enforcement agency upon request during normal business hours to take physical inventory of motor vehicles and parts thereof on the premises." The statute also states that a failure to comply with any of its requirements constitutes a felony. Administrative searches of commercial establishments do not require warrants. 
+Police officers assigned to Magnolia City's Automobile Crimes Unit periodically visited all motor vehicle junkyards in town to make the inspections permitted by the statute. Janet owned such a business in Magnolia City. One summer day, the officers asked to inspect the vehicles on her lot. Janet said, "Do I have a choice?" The officers told her she did not. The officers conducted their inspection and discovered three stolen automobiles. 
+Janet is charged with receiving stolen property. Janet moves pretrial to suppress the evidence relating to the three automobiles on the ground that the inspection was unconstitutional.</t>
+
+<h>Her motion should be denied.</h>
+</pair>
+
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="ENTAILMENT" id="30A">
+<t>Current national statistics show a dramatic increase in the number of elementary and secondary school students bringing controlled substances (drugs) to school for personal use or distribution to others. In response, Congress enacted a statute requiring each state legislature to enact a state law that makes it a state crime for any person to possess, use, or distribute, within 1,000 feet of any elementary or secondary school, any controlled substance that has previously been transported in interstate commerce and that is not possessed, used, or distributed pursuant to a proper physician's prescription. Congress has no authority to require a state legislature to enact any specified legislation.</t>
+
+<h>This federal statute is unconstitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="30B">
+<t>Current national statistics show a dramatic increase in the number of elementary and secondary school students bringing controlled substances (drugs) to school for personal use or distribution to others. In response, Congress enacted a statute requiring each state legislature to enact a state law that makes it a state crime for any person to possess, use, or distribute, within 1,000 feet of any elementary or secondary school, any controlled substance that has previously been transported in interstate commerce and that is not possessed, used, or distributed pursuant to a proper physician's prescription. The possession, use, or distribution, in close proximity to a school, of a controlled substance that has previously been transported in interstate commerce does not have a sufficiently close nexus to such commerce to justify its regulation by Congress.</t>
+
+<h>This federal statute is unconstitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="30C">
+<t>Current national statistics show a dramatic increase in the number of elementary and secondary school students bringing controlled substances (drugs) to school for personal use or distribution to others. In response, Congress enacted a statute requiring each state legislature to enact a state law that makes it a state crime for any person to possess, use, or distribute, within 1,000 feet of any elementary or secondary school, any controlled substance that has previously been transported in interstate commerce and that is not possessed, used, or distributed pursuant to a proper physician's prescription. It contains a jurisdictional provision that will ensure, on a case-by-case basis, that any particular controlled substance subject to the terms of this statute will, in fact, affect interstate commerce.</t>
+
+<h>This federal statute is constitutional.</h>
+</pair>
+
+<pair subject="CONSTITUTION LAW" task="QA" entailment="NONENTAILMENT" id="30D">
+<t>Current national statistics show a dramatic increase in the number of elementary and secondary school students bringing controlled substances (drugs) to school for personal use or distribution to others. In response, Congress enacted a statute requiring each state legislature to enact a state law that makes it a state crime for any person to possess, use, or distribute, within 1,000 feet of any elementary or secondary school, any controlled substance that has previously been transported in interstate commerce and that is not possessed, used, or distributed pursuant to a proper physician's prescription. Congress possesses broad authority under both the general welfare clause and the commerce clause to regulate any activities affecting education that also have, in inseverable aggregates, a substantial effect on interstate commerce.</t>
+
+<h>This federal statute is constitutional.</h>
+</pair>
+
+</entailment-corpus>
