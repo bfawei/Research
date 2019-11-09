@@ -1,0 +1,219 @@
+Criminal law and procedure rules for LQA
+
+1.	drink-alcoholic-beverage(?x, ?alc) ^ Intoxicate(?x) ^ has-committed(?x, ?r) ^ Robbery(?r) -> intend-to-commit(?x, ?r)
+
+2.	be_act_in(?p, ?df) ^ pull(?p, ?g) ^ shoot(?p, ?i) ^ kill(?p, ?p1) ^ be_charge_with(?p, ?m) -> should_be_acquitted_of(?p, ?m)
+
+3.	did_not_intend_to_sell(?p, ?co) ^ sell(?p, ?subst) ^ Bag_of_powder(?subst) ^ sell(?p, ?p1) ^ Person(?p1) -> is_not_guilty_of_attempting_to_sell_cocaine(?p)
+
+4.	intend_to_sell(?p, ?co) ^ repackage(?p, ?subst) ^ sell(?p, ?p1) ^ Undercover_police_officer(?p1) ^ Cocaine(?co) ^ Powder(?subst) -> is_guilty_of_attempting_to_sell_cocaine(?p)
+
+5.	Homeless(?p) ^ break_into(?p, ?h) ^ intend_to_commit(?p, ?tr) -> should_be_convicted_of(?p, ?tr)
+
+6.	reach(?p, ?sf) ^ take(?p, ?bg) ^ flee_with(?p, ?bg) ^ contain(?bg, ?csh) ^ intend_to_commit(?p, ?l) -> has_committed(?p, ?l)
+
+7.	reach(?p, ?sf) ^ take(?p, ?bg) ^ flee_with(?p, ?bg) ^ contain(?bg, ?csh) ^ Larceny(?l) -> has_committed(?p, ?l)
+
+8.	reach(?p, ?sf) ^ take(?p, ?bg) ^ flee_with(?p, ?bg) ^ Crime(?l) -> has_committed(?p, ?l)
+
+9.	hold(?x, ?pr) ^ pick_up(?x, ?pr) ^ steal(?x, ?pr) ^ keep(?x, ?pr) ^ Larceny(?l) -> has_committed(?x, ?l)
+
+10.	break_into(?p, ?h) ^ Trespass(?tr) -> intend_to_commit(?p, ?tr)
+
+11.	take(?p, ?bg) ^ flee_with(?p, ?bg) ^ Larceny(?l) -> intend_to_commit(?p, ?l)
+
+12.	use(?p, ?p1) ^ bring(?p1, ?tv) ^ Larceny(?l) -> intend_to_commit(?p, ?l)
+
+13.	use(?p, ?p1) ^ bring(?p1, ?tv) ^ keep(?p, ?tv) ^ Accessory(?p) ^ Larceny(?l) -> is_guilty_of(?p, ?l)
+
+14.	intend_to_commit(?p, ?l) ^ use(?p, ?p1) ^ bring(?p1, ?tv) ^ keep(?p, ?tv) -> is_guilty_of(?p, ?l)
+
+15.	take(?p, ?prt) ^ conceal(?p, ?prt) ^ Larceny(?l) -> has_committed(?p, ?l)
+
+16.	drink(?x, ?alc) ^ Voluntary_action(?vol) ^ has_committed(?x, ?r) ^ Robbery(?r) -> intend_to_commit(?x, ?r)
+
+17.	drink(?x, ?alc) ^ has_committed(?x, ?r) ^ Robbery(?r) -> intend_to_commit(?x, ?r)
+
+18.	suffer(?p1, ?kw) ^ be_charge_with(?p, ?cr) ^ Assault(?cr) ^ offer(?p, ?ev) ^ drink_at(?p, ?pic) ^ be_intoxicate_at(?p, ?t) -> intoxication_should_be_admitted_without_limitation(?p)
+
+19.	decide(?p, ?coc) ^ make(?p, ?mon) ^ sell(?p, ?co) ^ Money(?mon) -> intend_to_sell(?p, ?co)
+
+20.	sell(?p, ?subst) ^ Bag_of_powder(?subst) ^ sell(?p, ?p1) ^ Person(?p1) ^ Cocaine(?co) -> did_not_intend_to_sell(?p, ?co)
+
+21.	have(?p, ?st) ^ Upset(?p) ^ decide_in(?p, ?ds) ^ set(?p, ?f) ^ leave(?p, ?b) ^ burn(?b, ?gd) ^ indict_for(?p, ?ar) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+22.	Upset(?p) ^ Negligent(?p) ^ Arrest(?p) ^ drop(?p, ?mch) ^ set(?p, ?f) ^ burn(?b, ?gd) ^ indict_for(?p, ?ar) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+23.	Upset(?p) ^ Negligent(?p) ^ Arrest(?p) ^ Destroy(?b) ^ leave(?p, ?b) ^ drop(?p, ?mch) ^ start(?p, ?f) ^ indict_for(?p, ?ar) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+24.	decide_in(?p, ?ds) ^ set(?p, ?f) ^ leave(?p, ?b) ^ burn(?b, ?gd) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+25.	Upset(?p) ^ Negligent(?p) ^ Arrest(?p) ^ Destroy(?b) ^ leave(?p, ?b) ^ set(?p, ?f) ^ indict_for(?p, ?ar) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+26.	set(?p, ?f) ^ leave(?p, ?b) ^ Arson(?ar) -> intend_to_commit(?p, ?ar)
+
+27.	drop(?p, ?mch) ^ burn(?b, ?gd) ^ Arson(?ar) -> intend_to_commit(?p, ?ar)
+
+28.	drop(?p, ?mch) ^ leave(?p, ?b) ^ burn(?b, ?gd) ^ Fire(?f) -> start(?p, ?f)
+
+29.	Negligent(?p) ^ set(?p, ?f) ^ burn(?f, ?b) ^ Arson(?ar) -> is_guilty_of(?p, ?ar)
+
+30.	set(?p, ?f) ^ burn(?f, ?b) -> start(?p, ?f)
+
+31.	drive(?p, ?c) ^ sever(?p, ?pm) ^ Fire(?f) -> start_fire(?p, ?f)
+
+32.	start_fire(?p, ?f) ^ burn(?b, ?gd) ^ charge_with(?p, ?ar) )^Arson(?ar) -> should_be_convicted_of(?p, ?ar)
+
+33.	start_fire(?p, ?f)^burn(?b, ?g)^ killed(?p1, ?k)^charge_with(?p, ?m)^Murder(?m) -> should_be_convicted_of(?p, ?m)
+
+34.	play(?x, ?gam) ^ play(?x1,?gam) ^ fell-over(?x1, ?de) ^ Intention(?i) -> did_not_intend(?x, ?i)
+
+35.	play(?x, ?gam) ^ play(?x1,?gam) ^ take(?x, ?g) ^ point_at(?x, ?x1) ^ pull(?x, ?trig) ^ fell-over(?x1, ?de) ^ Murder-in-the-second-degree(?y) -> should_be_convicted_of(?x, ?y)
+
+36.	obtain(?pol, ?sw) ^ reveal(?searc, ?weap) ^ search(?pol, ?mt) ^ seize(?pol, ?mt) ^ put_handcuffs_on(?pol, ?p) ^ be_charge_with(?p,?up) ^ move(?p, ?pr) ^ Pretrial(?pr) -> motion_to_suppress_should_be_denied(?per)
+
+37.	suffer(?p1, ?kw) ^ suffer_knife_wound_during(?p1, ?alt) ^ be_charge_with(?p, ?cr) ^ Assault(?cr) ^ offer(?p, ?ev) ^ drink_at(?p, ?pic) ^ be_intoxicate_at(?p, ?t) -> intoxication should be admitted without limitation(?p)
+
+38.	be_act_in(?p, ?df) ^ pull(?p, ?g) ^ shoot(?p, ?i) ^ kill(?p, ?p1) ^ be_charge_with(?p, ?m) -> should_be_acquitted_of(?p, ?m)
+
+39.	use(?p, ?p1) ^ bring(?p1, ?tv) ^ Larceny(?l) -> intend_to_commit(?p, ?l)
+
+40.	intend_to_commit(?p, ?l) ^ use(?p, ?p1) ^ bring(?p1, ?tv) ^ keep(?p, ?tv) -> is_guilty_of(?p, ?l)
+
+41.	use(?p, ?p1) ^ bring(?p1, ?tv) ^ keep(?p, ?tv) ^ Accessary(?p) ^ Larceny(?l) -> is_guilty_of(?p, ?l)
+
+42.	have(?p, ?st) ^ Store(?st) -> own(?p, ?st)
+
+43.	be_with(?p1, ?pr) ^ be_with(?p1, ?de) ^ kill(?p1, ?p2) ^ put_explosive(?p1, ?b) ^ kill_person(?b, ?p3) -> is_guilty_of_murder_in_the_first_degree(?p1)
+
+44.	shout_to(?p, ?p1) ^ shout_word_of(?p, ?e) ^ stab_person(?p1, ?p2) ^ kill_person(?p1, ?p2) -> is_guilty_of_accomplice(?p)
+
+45.	has_committed(?x, ?y) ^ negate(?m, ?i) ^ Crime(?y) -> should_be_acquitted(?x, ?y)
+
+46.	commit(?p, ?cm) ^ watch_activity(?p1, ?op) ^ be_try_as(?p1, ?accmp) ^ Accomplice(?accmp) -> should_be_acquitted(?p1, ?accmp)
+
+47.	advise(?pol, ?p) ^ confess(?p, ?cr) ^ describe_crime(?p, ?cr) -> confession_is_admissible(?p)
+
+48.	have(?p, ?sho) ^ set(?p, ?fir) ^ decide_in(?p, ?desp) ^ indict_for_arson(?p, ?arso) -> is_guilty_of_arson(?p)
+
+49.	has_intent(?p, ?i) ^ intention_to_burn(?i, ?b) ^ set(?p, ?f) ^ fail_to(?f, ?exp) -> has_not_committed_attempted_arson(?p)
+
+50.	be_covered_with(?p, ?msk) ^ be_with_weapon(?p, ?weap) ^ order_person(?p, ?p1) ^ into_building(?p1, ?hous) ^ Burglary(?burg) -> is_guilty_of_burglarY(?p, ?burg)
+
+51.	is_guilty_of_robberY(?p, ?rob) ^ is_guilty_of_burglarY(?p, ?burg) ^ is_guilty_of_murdeR(?p, ?m) -> is_guilty_of_burglary_robbery_murder(?p)
+
+52.	grow_plant(?p, ?plt) ^ be_prosecute_for(?p, ?mar) -> is_guilty_of(?p, ?mar)
+
+53.	be_without(?p, ?i) ^ kill_person(?p, ?p1) ^ Life(?lf) -> disregard(?p, ?lf)
+
+54.	Guilty(?g) ^ decide(?p, ?cm) ^ sell_cocaine(?p, ?p1) ^ differentFrom(?p, ?p1) -> is_guilty_of_attempting_to_sell_cocaine(?p)
+
+55.	differentFrom(?p, ?p1) ^ start_fire(?p, ?f) ^ be(?p1, ?t) ^ burn(?prp, ?ash) -> should_be_convicted_of_both_offenses(?p)
+
+56.	hire_person(?p, ?p1) ^ break_into(?p1, ?bdng) ^ start_fire(?p1, ?fir) ^ die_from(?p2, ?bun) -> is_guilty_of_felony_murder_and_arson(?p)
+
+57.	shoot_person(?p, ?p1) ^ kill_person(?p, ?p1) ^ be_charge_with(?p, ?fm) ^ First_degree_murder(?fm) -> should_be_guilty_of_first_degree_murder(?p)
+
+58.	differentFrom(?p, ?p1) ^ start_fire(?p, ?f) ^ be(?p1, ?t) ^ burn(?prp, ?ash) -> should_be_convicted_of_both_offenses(?p)
+
+59.	hire_person(?p, ?p1) ^ break_into(?p1, ?bdng) ^ start_fire(?p1, ?fir) ^ die_from(?p2, ?bun) -> is_guilty_of_felony_murder_and_arson(?p)
+
+60.	shoot_person(?p, ?p1) ^ kill_person(?p, ?p1) ^ be_charge_with(?p, ?fm) ^ First_degree_murder(?fm) -> should_be_guilty_of_first_degree_murder(?p)
+
+61.	Accused_right(?r) ^ obtain_warrant(?p, ?sw) ^ find_material(?o, ?e) ^ search(?p, ?m) ^ sameAs(?o, ?p) -> did_not_violate(?p, ?r)
+
+62.	search_without(?pol, ?w) ^ arrest(?pol, ?p) ^ Accused_right(?r) -> violated(?pol, ?r)
+
+63.	did_not_violate(?p, ?r) ^ move_motion(?per, ?m) ^ suppress_evidence(?m, ?e) ^ exceed(?s, ?sc) ^ differentFrom(?p, ?per) -> motion_to_suppress_should_be_granted(?per)
+
+64.	spin_gun(?p, ?b) ^ Game(?g) -> playing_game(?p, ?g)
+
+65.	take_material(?p, ?mat) ^ conceal_material(?p, ?mat) ^ Intention(?i) -> has_intent(?p, ?i)
+
+66.	point_at(?p1, ?p2) ^ pull_trigger(?p1, ?t) ^ Intention(?i) -> has_intent(?p1, ?i)
+
+67.	steal_material(?p, ?mat) ^ conceal_material(?p, ?mat) ^ Intention(?i) -> has_intent(?p, ?i)
+
+68.	set(?p, ?fi) ^ leave(?p, ?b) ^ Intention(?i) -> intention_to_burn(?i, ?b)
+
+69.	creep_into(?p, ?b) ^ creep_with(?p, ?fu) ^ Intention(?i) -> has_intent(?p, ?i)
+
+70.	hold_weapon(?p, ?w) ^ kill(?p, ?p1) ^ Intention(?i) -> has_intent(?p, ?i)
+
+71.	use_person(?p, ?p1) ^ keep_material(?p, ?mat) ^ General_intent(?i) -> has_intent(?p, ?i)
+
+72.	reach_safe(?p, ?saf) ^ take_material(?p, ?mat) ^ General_intent(?i) -> has_intent(?p, ?i)
+
+73.	suffer(?p, ?w) ^ be_charge_with(?p1, ?ass) ^ attempt(?p1, ?m) ^ be(?p1, ?intox) ^ offer(?p1, ?evi) ^ follow(?jur, ?clr) ^ admissibility_of(?conc, ?evi1) -> intoxication_should_be_admitted_without_limitation(?p1)
+
+74.	hold_material(?x, ?pr) ^ have(?p1, ?pr) ^ keep_material(?x, ?pr) ^ steal_material(?x, ?pr) -> has_committed_attempted_larceny(?x)
+
+75.	use_person(?p, ?p1) ^ take_material(?p1, ?pro) ^ keep_material(?p, ?pro) ^ have(?p2, ?pro) ^ Larceny(?l) -> is_guilty_of(?p, ?l)
+
+76.	steal_material(?p, ?mat) ^ flee_with(?p, ?mat) ^ has_intent(?p, ?i) -> is_guilty_of_larceny(?p)
+
+77.	use_person(?p, ?p1) ^ steal_material(?p1, ?mat) ^ keep_material(?p, ?mat) ^ has_intent(?p, ?i) -> is_guilty_of_larceny(?p)
+
+78.	steal_material(?p, ?mat) ^ has_intent(?p, ?i) -> should_be_convicted_of_larceny(?p)
+
+79.	take_material(?p, ?mat) ^ conceal_material(?p, ?mat) ^ has_intent(?p, ?i) -> has_committed__larceny(?p)
+
+80.	grab(?p, ?p1) ^ knock_person(?p1, ?p) ^ charge_with(?p1, ?ass) ^ Crime(?ass) -> mistake_constitutes_a_defense_to_the_crime_charged(?p1)
+
+81.	be_charge(?p, ?crm) ^ suppress(?p, ?evi) ^ Motion(?m) -> move_motion(?p, ?m)
+
+82.	violated(?pol, ?r) ^ be_charge_with(?p, ?pss) ^ move_motion(?p, ?m) -> motion_should_be_granted(?p)
+
+83.	use_person(?pol, ?obs) ^ use(?pol, ?hel) ^ identify_controlled_material(?pol, ?cmat) ^ be_prosecute_for(?p, ?mar) ^ move_motion(?p, ?mo) ^ suppress_evidence(?mo, ?evi) ^ Court(?crt) -> should_deny_the_motion(?crt)
+
+84.	is_guilty_of(?p, ?mar) ^ move_motion(?p, ?mo) ^ suppress_evidence(?mo, ?evi) ^ Court(?crt) -> should_deny_the_motion(?crt)
+
+85.	grab(?p, ?p1) ^ be_conduct_without(?searc, ?war) ^ found_material(?p, ?mat) ^ be_charge_with(?p1, ?cr) ^ Crime(?cr) ^ move_motion(?p1, ?mot) ^ suppress_evidence(?mot, ?evi) ^ Court(?cou) -> should_grant_the_motion(?cou)
+
+86.	did_not_violate(?p, ?r) ^ move_motion(?per, ?m) ^ suppress_evidence(?m, ?e) ^ differentFrom(?p, ?per) -> motion_to_suppress_should_be_denied(?per)
+
+87.	have_committed_an(?p1, ?a) ^ has_intent(?p1, ?i) ^ fall_over(?p2, ?d) ^ differentFrom(?p1, ?p2) ^ Murder(?m) -> should_be_convicted_of_murder(?p1, ?m)
+
+88.	pull_trigger(?p, ?trg) ^ shoot_with(?p, ?i) ^ kill_person(?bul, ?p1) ^ charge_with(?p, ?m) ^ Crime(?m) ^ differentFrom(?p, ?p1) -> is_guilty_of(?p, ?m)
+
+89.	hold_up(?p, ?stor) ^ use_weapon(?p, ?weap) ^ fire_some(?p, ?bul) ^ kill_person(?bul1, ?p1) -> is_guilty_of_murder_in_the_second_degree(?p)
+
+90.	playing_game(?p, ?gm) ^ take_out(?p, ?gn) ^ pull_trigger(?p, ?tr) ^ fall_over(?p1, ?dd) -> should_be_convicted_of_murder_in_the_second_degree(?p)
+
+91.	commit_an(?p, ?ac) ^ dangerous_to(?ac, ?lf) ^ disregard(?p, ?lf) ^ kill_person(?p, ?p1) -> is_guilty_of_murder(?p)
+
+92.	has_intent(?p, ?i) ^ hold_weapon(?p, ?w) ^ kill(?p, ?p1) -> should_be_convicted_of_murder(?p)
+
+93.	be_covered_with(?p, ?msk) ^ be_with_weapon(?p, ?weap) ^ be(?p1, ?accst) ^ suffer(?p1, ?hAtt) ^ Murder(?m) -> is_guilty_of_murdeR(?p, ?m)
+
+94.	is_guilty_of_murder(?p, ?m) ^ have_evidence(?p, ?tes) ^ believe(?j, ?tes) -> should_find_defendeant_not_guilty_of_murder_manslaughter(?j)
+
+95.	point_weapon(?p, ?g) ^ point_at(?p, ?p1) ^ demand(?p, ?mat) ^ fire_at(?p2, ?p) ^ kill(?b, ?p1) ^ be_charge_with(?p, ?fm) ^ Crime(?fm) -> is_not_guilty_of_felony_murder(?p)
+
+96.	break_into(?p, ?build) ^ Privilege(?priv) -> not_given(?p, ?priv)
+
+97.	Robbery(?rob) ^ knock_person(?x, ?y) ^ take_material(?x, ?pr) -> has_committed_robbery(?x, ?rob)
+
+98.	be_covered_with(?p, ?msk) ^ be_with_weapon(?p, ?weap) ^ force_person(?p, ?p1) ^ steal_material(?p, ?mat) ^ Robbery(?rob) -> is_guilty_of_robberY(?p, ?rob)
+
+99.	break_into(?p, ?bd) ^ not_given(?p, ?pv) ^ Intention(?i) -> has_intent(?p, ?i)
+
+100.	suffer(?p, ?hAtt) ^ Person(?p) -> died_of(?p, ?hAtt)
+
+101.	is_guilty_of(?p, ?mar) ^ move_motion(?p, ?mo) ^ suppress_evidence(?mo, ?evi) ^ Court(?cr) ^ exceed(?s, ?sc) -> should_deny_the_motion(?cr)
+
+102.	have(?p1, ?mat) ^ enter(?p, ?rm) ^ find_material(?p, ?mat) ^ Officer(?p) ^ Warrant(?w) -> search_without(?p, ?w)
+
+103.	search(?pol, ?mat) ^ be_obtain_as(?mat, ?s) ^ Warrant(?w) -> search_without(?pol, ?w)
+
+104.	threaten_to_kill(?p, ?p1) ^ pull_out(?p, ?weap) ^ take_weapon(?p1, ?wp) ^ kill(?p1, ?p) -> claim_of_self-defense_should_be_sustained(?p1)
+
+105.	is_guilty_of(?p, ?m) ^ be_act(?p, ?d) ^ Defense(?d) -> should_be_acquitted(?p)
+
+106.	cause(?e, ?c) ^ sever(?p, ?f) ^ fueled(?f, ?c) -> start_fire(?p, ?f)
+
+107.	search_without(?p, ?w) ^ find_material(?p, ?mat) ^ have(?p1, ?mat) ^ be_charge_with(?p1, ?cr) ^ be_charge_in(?p1, ?rt) ^ move_motion(?p1, ?m) ^ suppress(?p1, ?e) -> should_suppress_the_evidence(?rt)
+
+108.	pull_out(?p, ?weap) ^ tell_person(?p, ?p1) ^ kill(?p, ?p1) -> threaten_to_kill(?p, ?p1)
+
+109.	break_into(?p, ?h) ^ not_given(?p, ?priv) -> should_be_convicted_of_trespass(?p)
